@@ -1,0 +1,22 @@
+{
+  "name": "thrown-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18",
+    "react-bootstrap": "^1.6.1",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18",
+    "react-player": "^2.14.1",
+    "react-visibility-sensor": "^5.1.1",
+    "swiper": "^11.0.5",
+    "wowjs": "^1.1.3"
+  }
+}

@@ -1,0 +1,63 @@
+/* .style-two.sticky-nav {
+  left: 0;
+  margin: auto;
+  top: 0;
+  right: 0;
+  width: 100%;
+  position: fixed !important;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+  -webkit-animation: 300ms running fadeInDown;
+  animation: 500ms running fadeInUp;
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  transition: 0.5s !important;
+  background: #010212 !important;
+  z-index: 9999 !important;
+  animation-name: slideInDown;
+  padding: 0 30px;
+} */
+
+.banner-section .owl-nav {
+  z-index: 1;
+  position: absolute;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  left: 32px !important;
+  bottom: unset !important;
+}
+.banner-section .owl-nav div {
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px !important;
+  opacity: 1;
+}
+
+.testi_list .swiper-pagination-bullet {
+  background: transparent;
+  opacity: 1;
+}
+
+.owl-nav div {
+  cursor: pointer;
+}
+
+.testimonial-area.style-five .owl-nav {
+  z-index: 1;
+}
+
+.bi-justify-right::before {
+  content: "\f44a";
+}
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
