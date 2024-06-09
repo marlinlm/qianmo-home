@@ -20,11 +20,11 @@ const Index2 = () => {
                   <div className="col-lg-12">
                     <div className="slider-content style-two">
                       <div className="slider-sub-title style-two">
-                        <h1>大模型 + 交通</h1>
+                        <h4>下一代智慧交通解决方案</h4>
                         <h1></h1>
                       </div>
                       <div className="slider-main-title">
-                        <h4>下一代智慧交通解决方案</h4>
+                        <h1>大模型 + 交通</h1>
                       </div>
                       <div className="thrown-btn slider2">
                         <Link legacyBehavior href="/contact-us">
