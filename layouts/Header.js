@@ -359,7 +359,7 @@ const Nav = () => {
     <ul>
       <li>
         {/* <a href="#"> */}
-        <a href="/">
+        <a legacyBehavior href="/">
           Home <i className="fas fa-chevron-down" />
         </a>
         {/* <div className="home-menu">
