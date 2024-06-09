@@ -35,9 +35,9 @@ const Index2 = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="slider-shape3 dance3">
+                    {/* <div className="slider-shape3 dance3">
                       <img src="assets/images/slider/shape3.png" alt="image" />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
