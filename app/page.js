@@ -14,21 +14,20 @@ const Index2 = () => {
       <div className="slider-list">
         <Swiper {...sliderProps.hero2}>
           <SwiperSlide>
-            <div
-                className="image-layer"
-                style={{
-                  backgroundImage: 'url("assets/images/slider/slide.png")',
-                }}
-            />
             <div className="slider-area">
+              <div
+                  className="image-layer"
+                  style={{
+                    backgroundImage: 'url("assets/images/slider/slide.png")',
+                  }}
+              />
               <div className="container">
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="slider-content style-two">
                       <div className="slider-sub-title style-two">
-                        <h1>大模型</h1>
-                        <h1> + </h1>
-                        <h1> 交通 </h1>
+                        <h1>大模型 + 交通</h1>
+                        <span />
                       </div>
                       <div className="slider-main-title">
                         <h4>下一代智慧交通解决方案</h4>
