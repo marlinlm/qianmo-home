@@ -539,30 +539,86 @@ const Nav = () => {
           </div>
         </div> */}
       </li>
-      <li>
-        <Link legacyBehavior href="about">
-          About
-        </Link>
-      </li>
+
       <li>
         <a href="#">
-          Service <i className="fas fa-chevron-down" />
+          解决方案 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
           <ul>
             <li>
-              <Link legacyBehavior href="service">
-                Service
+              <Link legacyBehavior href="traffic">
+                智慧交通
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="service-details">
-                Service Details
+              <Link legacyBehavior href="travel">
+                智慧出行
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="report">
+                大数据报告
               </Link>
             </li>
           </ul>
         </div>
       </li>
+
+      <li>
+        <a href="#">
+          科研与教学 <i className="fas fa-chevron-down" />
+        </a>
+        <div className="sub-menu">
+          <ul>
+            <li>
+              <Link legacyBehavior href="publishment">
+                论文
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="pattern">
+                专利
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="opensource">
+                开源项目
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="talks">
+                公开演讲
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="education">
+                教学
+              </Link>
+            </li>
+
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <Link legacyBehavior href="cases">
+          案例 
+        </Link>
+      </li>
+
+      <li>
+        <Link legacyBehavior href="offer">
+          招聘
+        </Link>
+      </li>
+
+      <li>
+        <Link legacyBehavior href="about">
+          关于阡陌
+        </Link>
+      </li>
+
       <li>
         <a href="#">
           Pages <i className="fas fa-chevron-down" />
