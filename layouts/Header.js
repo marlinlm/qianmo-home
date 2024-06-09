@@ -657,7 +657,7 @@ const SearchBtn = ({ btnStyle }) => {
       <div className="thrown-btn style-five">
         <Link legacyBehavior href="/contact-us">
           <a className="header-button">
-            联系我们☎️ <span />
+            联系我们 <span />
           </a>
         </Link>
       </div>
