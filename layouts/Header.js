@@ -358,10 +358,11 @@ const Nav = () => {
   return (
     <ul>
       <li>
-        <a href="#">
+        {/* <a href="#"> */}
+        <a href="/">
           Home <i className="fas fa-chevron-down" />
         </a>
-        <div className="home-menu">
+        {/* <div className="home-menu">
           <div className="row gx-6 row-cols-1 row-cols-md-2 row-cols-xl-5">
             <div className="home-items">
               <div className="home-menu-thumb">
@@ -534,7 +535,7 @@ const Nav = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </li>
       <li>
         <Link legacyBehavior href="about">
