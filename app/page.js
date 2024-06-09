@@ -17,7 +17,7 @@ const Index2 = () => {
             <div
                 className="image-layer"
                 style={{
-                  backgroundImage: 'url("assets/images/slider/slider1.jpg")',
+                  backgroundImage: 'url("assets/images/slider/slide.png")',
                 }}
             />
             <div className="slider-area">
