@@ -609,7 +609,7 @@ const Nav = () => {
 
       <li>
         <a href="#">
-          科研与教学 <i className="fas fa-chevron-down" />
+          关于 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
           <ul>
@@ -636,7 +636,7 @@ const Nav = () => {
 const SearchBtn = ({ btnStyle }) => {
   return (
     <Fragment>
-      <div className={`thrown-social-menu ${btnStyle ? btnStyle : ""}`}>
+      {/* <div className={`thrown-social-menu ${btnStyle ? btnStyle : ""}`}>
         <ul>
           <li>
             <a
@@ -653,11 +653,11 @@ const SearchBtn = ({ btnStyle }) => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="thrown-btn style-five">
         <Link legacyBehavior href="/contact-us">
           <a className="header-button">
-            Get A Quout <span />
+            联系我们☎️ <span />
           </a>
         </Link>
       </div>
