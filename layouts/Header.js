@@ -299,7 +299,7 @@ const MobileMenu = () => {
         <div className="mobile-logo">
           <Link legacyBehavior href="/">
             <a>
-              <img src="assets/images/logo.png" alt="image" />
+              <img src="assets/images/logo-white_bg.png" alt="image" />
             </a>
           </Link>
         </div>
