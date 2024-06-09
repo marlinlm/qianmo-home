@@ -359,9 +359,11 @@ const Nav = () => {
     <ul>
       <li>
         {/* <a href="#"> */}
-        <a legacyBehavior href="/">
-          Home <i className="fas fa-chevron-down" />
-        </a>
+        <Link legacyBehavior href="/">
+          <a>
+            首页 {/* Home <i className="fas fa-chevron-down" /> */}
+          </a>
+        </Link>
         {/* <div className="home-menu">
           <div className="row gx-6 row-cols-1 row-cols-md-2 row-cols-xl-5">
             <div className="home-items">
