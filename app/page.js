@@ -20,12 +20,12 @@ const Index2 = () => {
                   <div className="col-lg-12">
                     <div className="slider-content style-two">
                       <div className="slider-sub-title style-two">
-                        <h4>Smart Business Consulting</h4>
+                        <h4>大模型 + 交通</h4>
                       </div>
                       <div className="slider-main-title">
-                        <h1>Unlock Your Business's</h1>
-                        <h1>Full Potential with</h1>
-                        <h1>Success Future</h1>
+                        <h1>下一代</h1>
+                        <h1>智慧交通</h1>
+                        <h1>解决方案</h1>
                       </div>
                       <div className="thrown-btn slider2">
                         <Link legacyBehavior href="/contact-us">
@@ -38,34 +38,6 @@ const Index2 = () => {
                     </div>
                     <div className="slider-shape3 dance3">
                       <img src="assets/images/slider/shape3.png" alt="image" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="slider-area two">
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <div className="slider-content style-two">
-                      <div className="slider-sub-title style-two">
-                        <h4>Smart Business Consulting</h4>
-                      </div>
-                      <div className="slider-main-title">
-                        <h1>Unlock Your HR</h1>
-                        <h1>Potential Strategic</h1>
-                        <h1>Consulting Services</h1>
-                      </div>
-                      <div className="thrown-btn slider2">
-                        <Link legacyBehavior href="/contact-us">
-                          <a className="header-button">
-                            Read More
-                            <span />
-                          </a>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </div>

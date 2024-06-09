@@ -608,16 +608,25 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link legacyBehavior href="offer">
-          招聘
-        </Link>
+        <a href="#">
+          科研与教学 <i className="fas fa-chevron-down" />
+        </a>
+        <div className="sub-menu">
+          <ul>
+            <li>
+              <Link legacyBehavior href="offer">
+                招聘
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="about">
+                关于阡陌
+              </Link>
+            </li>
+          </ul>
+        </div>
       </li>
 
-      <li>
-        <Link legacyBehavior href="about">
-          关于阡陌
-        </Link>
-      </li>
 
 
     </ul>
