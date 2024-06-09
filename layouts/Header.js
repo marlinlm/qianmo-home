@@ -43,7 +43,7 @@ const Header1 = ({ dark }) => {
               <div className={`header-logo ${dark ? "dark" : ""}`}>
                 <Link legacyBehavior href="/">
                   <a>
-                    <img src="assets/images/logo.png" alt="" />
+                    <img src="assets/images/logo-white_bg.png" alt="" />
                   </a>
                 </Link>
               </div>
@@ -81,7 +81,7 @@ const Header2 = ({ dark }) => {
             <div className="header-logo style-two">
               <Link legacyBehavior href="/">
                 <a>
-                  <img src="assets/images/logo.png" alt="logo" />
+                  <img src="assets/images/logo-white_bg.png" alt="logo" />
                 </a>
               </Link>
             </div>
@@ -122,8 +122,8 @@ const Header3 = ({ dark }) => {
                   <img
                     src={
                       dark
-                        ? "assets/images/logo.png"
-                        : "assets/images/logo2.png"
+                        ? "assets/images/logo-white_bg.png"
+                        : "assets/images/logo-white_bg.png"
                     }
                     alt="image"
                   />
@@ -169,8 +169,8 @@ const Header4 = ({ dark }) => {
                     <img
                       src={
                         dark
-                          ? "assets/images/logo.png"
-                          : "assets/images/logo5.png"
+                          ? "assets/images/logo-white_bg.png"
+                          : "assets/images/logo-white_bg.png"
                       }
                       alt="image"
                     />
