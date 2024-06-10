@@ -80,8 +80,6 @@ const Index2 = () => {
                     </h5>
                     <p>发表论文</p>
                   </div>
-                </div>
-                <div className="about-counter">
                   <div className="about-counter-thumb">
                     <img
                       src="assets/images/about/about_pattern.png"
