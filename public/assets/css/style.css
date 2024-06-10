@@ -917,12 +917,12 @@ a.header-button:hover {
 }
 
 .about-thumb img {
-  width: 90%;
+  width: 50%;
   transition: 0.5s;
 }
 
 .about-thumb img:hover {
-  transform: perspective(300px) rotateX(2deg) rotateY(2deg);
+  transform: perspective(300px) rotateX(1deg) rotateY(0deg);
 }
 
 .about-shape {
@@ -2267,7 +2267,7 @@ ul.accordion ul li a span {
   }
   
 .about-counter-thumb img {
-  height: 60px;
+  height: 50px;
   width: auto;
 }
 
