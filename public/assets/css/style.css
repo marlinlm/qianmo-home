@@ -2264,6 +2264,7 @@ ul.accordion ul li a span {
 .about-counter-thumb {
   float: left;
   margin-right: 20px;
+  margin-left: 20px;
   }
   
 .about-counter-thumb img {
