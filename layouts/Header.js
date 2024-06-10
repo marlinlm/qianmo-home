@@ -567,7 +567,7 @@ const Nav = () => {
 
       <li>
         <a href="#">
-          科研与教学 <i className="fas fa-chevron-down" />
+          学术 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
           <ul>
