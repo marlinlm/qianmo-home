@@ -4,7 +4,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <ThrownLayout>
-      <PageBanner pageName={"Error Page"} />
+      <PageBanner pageName={"网站还在建设中。。。"} />
       <div className="error-area">
         <div className="container">
           <div className="row">
@@ -13,9 +13,9 @@ const page = () => {
                 <img src="assets/images/resource/error.svg" alt="image" />
               </div>
               <div className="thrown-btn error text-center">
-                <Link legacyBehavior href="/contact-us">
+                <Link legacyBehavior href="/">
                   <a className="header-button">
-                    Go To Home <span />
+                    回到首页 <span />
                   </a>
                 </Link>
               </div>

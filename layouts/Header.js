@@ -77,23 +77,28 @@ const Header2 = ({ dark }) => {
     <div className="thrown-header-area style-two" id="navbar">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-3">
+          <div className="col-lg-1 align-items-center"></div>
+          <div className="col-lg-2 align-items-center">
+            
             <div className="header-logo style-two">
               <Link legacyBehavior href="/">
                 <a>
-                  <img src="assets/images/logo-white_bg.png" alt="logo" />
+                  <img src="/assets/images/logo-white_bg.png" alt="logo" height="40px"/>
                 </a>
               </Link>
             </div>
           </div>
-          <div className="col-lg-9">
+          <div className="col-lg-6 align-items-center">
             <div className="thrown-menu style-two">
               <Nav />
             </div>
+          </div>
+          <div className="col-lg-2">
             <div className="thrown-search-button style-two">
               <SearchBtn btnStyle={"style-two"} />
             </div>
           </div>
+          <div className="col-lg-1 align-items-center"></div>
         </div>
         <div className="side-menu-info">
           <div className="sidebar-menu">
@@ -106,6 +111,8 @@ const Header2 = ({ dark }) => {
     </div>
   );
 };
+
+
 
 const Header3 = ({ dark }) => {
   return (
@@ -122,8 +129,8 @@ const Header3 = ({ dark }) => {
                   <img
                     src={
                       dark
-                        ? "assets/images/logo-white_bg.png"
-                        : "assets/images/logo-white_bg.png"
+                        ? "/assets/images/logo-white_bg.png"
+                        : "/assets/images/logo-white_bg.png"
                     }
                     alt="image"
                   />
@@ -209,12 +216,11 @@ const TopBar = () => {
           <div className="col-lg-6">
             <div className="topbar-info">
               <span>
-                <i className="bi bi-geo-alt-fill" /> 5010 Avenue of the Moon New
-                York, NY 10018 US.
+                <i className="bi bi-geo-alt-fill" /> 香港科技大学（广州）E3栋5楼 
               </span>
             </div>
           </div>
-          <div className="col-lg-4">
+          {/* <div className="col-lg-4">
             <div className="topbar-social-item">
               <h4>FOLLOW US</h4>
               <ul>
@@ -240,7 +246,7 @@ const TopBar = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
@@ -254,12 +260,11 @@ const TopBar2 = () => {
           <div className="col-lg-6">
             <div className="topbar-info style-five">
               <span>
-                <i className="bi bi-geo-alt-fill" /> 5010 Avenue of the Moon New
-                York, NY 10018 US.
+                <i className="bi bi-geo-alt-fill" /> 香港科技大学（广州）E3栋5楼
               </span>
             </div>
           </div>
-          <div className="col-lg-6">
+          {/* <div className="col-lg-6">
             <div className="topbar-social-item">
               <h4>FOLLOW US</h4>
               <ul>
@@ -285,7 +290,7 @@ const TopBar2 = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
@@ -359,220 +364,46 @@ const Nav = () => {
     <ul>
       <li>
         {/* <a href="#"> */}
-        <Link legacyBehavior href="/">
+        <Link legacyBehavior href="/#">
           <a>
             首页 {/* Home <i className="fas fa-chevron-down" /> */}
           </a>
         </Link>
-        {/* <div className="home-menu">
-          <div className="row gx-6 row-cols-1 row-cols-md-2 row-cols-xl-5">
-            <div className="home-items">
-              <div className="home-menu-thumb">
-                <img src="assets/images/home-thumb/home-1.png" alt="" />
-                <div className="home-btn">
-                  <Link legacyBehavior href="/">
-                    <a className="menu-btn">View Demo</a>
-                  </Link>
-                </div>
-              </div>
-              <div className="home-menu-title">
-                <h4>
-                  <Link legacyBehavior href="/">
-                    Home One
-                  </Link>
-                </h4>
-              </div>
-            </div>
-            <div className="home-items">
-              <div className="home-menu-thumb">
-                <img src="assets/images/home-thumb/home-2.png" alt="" />
-                <div className="home-btn">
-                  <Link legacyBehavior href="/index-two">
-                    <a className="menu-btn">View Demo</a>
-                  </Link>
-                </div>
-              </div>
-              <div className="home-menu-title">
-                <h4>
-                  <Link legacyBehavior href="index-two">
-                    Home Two
-                  </Link>
-                </h4>
-              </div>
-            </div>
-            <div className="home-items">
-              <div className="home-menu-thumb">
-                <img src="assets/images/home-thumb/home-3.png" alt="" />
-                <div className="home-btn">
-                  <Link legacyBehavior href="/index-three">
-                    <a className="menu-btn">View Demo</a>
-                  </Link>
-                </div>
-              </div>
-              <div className="home-menu-title">
-                <h4>
-                  <Link legacyBehavior href="index-three">
-                    Home Three
-                  </Link>
-                </h4>
-              </div>
-            </div>
-            <div className="home-items">
-              <div className="home-menu-thumb">
-                <img src="assets/images/home-thumb/home-4.png" alt="" />
-                <div className="home-btn">
-                  <Link legacyBehavior href="/index-four">
-                    <a className="menu-btn">View Demo</a>
-                  </Link>
-                </div>
-              </div>
-              <div className="home-menu-title">
-                <h4>
-                  <Link legacyBehavior href="index-four">
-                    Home Four
-                  </Link>
-                </h4>
-              </div>
-            </div>
-            <div className="home-items">
-              <div className="home-menu-thumb">
-                <img src="assets/images/home-thumb/home-5.png" alt="" />
-                <div className="home-btn">
-                  <Link legacyBehavior href="/index-five">
-                    <a className="menu-btn">View Demo123</a>
-                  </Link>
-                </div>
-              </div>
-              <div className="home-menu-title">
-                <h4>
-                  <Link legacyBehavior href="index-five">
-                    Home Five
-                  </Link>
-                </h4>
-              </div>
-            </div>
-            <div className="home-items">
-              <div className="home-menu-thumb">
-                <img src="assets/images/home-thumb/home-6.png" alt="" />
-                <div className="home-btn">
-                  <Link legacyBehavior href="/index-dark-one">
-                    <a className="menu-btn">View Demo</a>
-                  </Link>
-                </div>
-              </div>
-              <div className="home-menu-title">
-                <h4>
-                  <Link legacyBehavior href="index-dark-one">
-                    Home Six
-                  </Link>
-                </h4>
-              </div>
-            </div>
-            <div className="home-items">
-              <div className="home-menu-thumb">
-                <img src="assets/images/home-thumb/home-7.png" alt="" />
-                <div className="home-btn">
-                  <Link legacyBehavior href="/index-dark-two">
-                    <a className="menu-btn">View Demo</a>
-                  </Link>
-                </div>
-              </div>
-              <div className="home-menu-title">
-                <h4>
-                  <Link legacyBehavior href="index-dark-two">
-                    Home Seven
-                  </Link>
-                </h4>
-              </div>
-            </div>
-            <div className="home-items">
-              <div className="home-menu-thumb">
-                <img src="assets/images/home-thumb/home-8.png" alt="" />
-                <div className="home-btn">
-                  <Link legacyBehavior href="/index-dark-three">
-                    <a className="menu-btn">View Demo</a>
-                  </Link>
-                </div>
-              </div>
-              <div className="home-menu-title">
-                <h4>
-                  <Link legacyBehavior href="index-dark-three">
-                    Home Eight
-                  </Link>
-                </h4>
-              </div>
-            </div>
-            <div className="home-items">
-              <div className="home-menu-thumb">
-                <img src="assets/images/home-thumb/home-9.png" alt="" />
-                <div className="home-btn">
-                  <Link legacyBehavior href="/index-dark-four">
-                    <a className="menu-btn">View Demo</a>
-                  </Link>
-                </div>
-              </div>
-              <div className="home-menu-title">
-                <h4>
-                  <Link legacyBehavior href="index-dark-four">
-                    Home Nine
-                  </Link>
-                </h4>
-              </div>
-            </div>
-            <div className="home-items">
-              <div className="home-menu-thumb">
-                <img src="assets/images/home-thumb/home-10.png" alt="" />
-                <div className="home-btn">
-                  <Link legacyBehavior href="/index-dark-five">
-                    <a className="menu-btn">View Demo</a>
-                  </Link>
-                </div>
-              </div>
-              <div className="home-menu-title">
-                <h4>
-                  <Link legacyBehavior href="index-dark-five">
-                    Home Ten
-                  </Link>
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </li>
 
       <li>
-        <a href="#">
-          解决方案 <i className="fas fa-chevron-down" />
+        <a href="/#service">
+          服务 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
           <ul>
             <li>
-              <Link legacyBehavior href="traffic">
-                智慧交通
+              <Link legacyBehavior href="/service#solution1">
+                智慧交通解决方案
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="travel">
-                智慧出行
+              <Link legacyBehavior href="/service#solution2">
+                智慧出行解决方案
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link legacyBehavior href="report">
                 大数据报告
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </li>
 
       <li>
-        <a href="#">
+        <a href="/#academic">
           学术 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
           <ul>
             <li>
-              <Link legacyBehavior href="publishment">
+              <Link legacyBehavior href="https://raymondhliu.github.io/publications/">
                 论文
               </Link>
             </li>
@@ -592,8 +423,8 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="education">
-                教学
+              <Link legacyBehavior href="demo">
+                成果演示
               </Link>
             </li>
 
@@ -602,33 +433,29 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link legacyBehavior href="cases">
-          案例 
+        <Link legacyBehavior href="/cases">
+          成功案例 
         </Link>
       </li>
-
       <li>
-        <a href="#">
+        <a href="/#about">
           关于 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
           <ul>
             <li>
-              <Link legacyBehavior href="offer">
-                招聘
+              <Link legacyBehavior href="/#about">
+                关于阡陌
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="about">
-                关于阡陌
+              <Link legacyBehavior href="/#offer">
+                招聘
               </Link>
             </li>
           </ul>
         </div>
       </li>
-
-
-
     </ul>
   );
 };
@@ -655,7 +482,7 @@ const SearchBtn = ({ btnStyle }) => {
         </ul>
       </div> */}
       <div className="thrown-btn style-five">
-        <Link legacyBehavior href="/contact-us">
+        <Link legacyBehavior href="/#contact">
           <a className="header-button">
             联系我们 <span />
           </a>

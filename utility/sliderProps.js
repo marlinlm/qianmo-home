@@ -77,18 +77,18 @@ export const sliderProps = {
     slidesPerView: 2,
     spaceBetween: 20,
     autoplay: true,
-    speed: 1400,
+    speed: 140,
     breakpoints: {
       768: {
-        slidesPerView: 4,
+        slidesPerView: 2,
         spaceBetween: 20,
       },
       992: {
-        slidesPerView: 5,
+        slidesPerView: 4,
         spaceBetween: 20,
       },
       1000: {
-        slidesPerView: 6,
+        slidesPerView: 5,
         spaceBetween: 20,
       },
     },

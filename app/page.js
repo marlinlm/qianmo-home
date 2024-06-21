@@ -3,7 +3,9 @@ import BrandSlider from "@/components/BrandSlider";
 import Counter from "@/components/Counter";
 import ThrownLayout from "@/layouts/ThrownLayout";
 import { sliderProps } from "@/utility/sliderProps";
+import TeamList from "@/components/TeamList";
 import Link from "next/link";
+import OfferList from "@/components/OfferList";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Index2 = () => {
   return (
@@ -20,11 +22,11 @@ const Index2 = () => {
                   <div className="col-lg-12">
                     <div className="slider-content style-two">
                       <div className="slider-sub-title style-two">
-                        <h4>下一代智慧交通解决方案</h4>
+                        <h4></h4>
                         <h1></h1>
                       </div>
                       <div className="slider-main-title">
-                        <h1>大模型 + 交通</h1>
+                        <h1>阡陌智能，交通未来</h1>
                       </div>
                       <div className="thrown-btn slider2">
                         <Link legacyBehavior href="/contact-us">
@@ -48,273 +50,26 @@ const Index2 = () => {
       {/*==================================================*/}
       {/* End Thrown Slider Area */}
       {/*==================================================*/}
-      {/*==================================================*/}
-      {/* Start Thrown About Area */}
-      {/*==================================================*/}
-      <div className="about-area style-two">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 col-md-12">
-              <div className="about-thumb">
-                <img src="assets/images/about/hkust_gz.jpg" alt="image" />
-                {/* <div className="about-video-icon">
-                  <a
-                    className="video-vemo-icon venobox vbox-item"
-                    data-vbtype="youtube"
-                    data-autoplay="true"
-                    href="https://youtu.be/BS4TUd7FJSg"
-                  >
-                    <i className="bi bi-play" />
-                  </a>
-                </div> */}
-                <div className="about-counter">
-                  <div className="about-counter-thumb">
-                    <img
-                      src="assets/images/about/about_paper.png"
-                      alt="image"
-                    />
-                  </div>
-                  <div className="about-countent-content">
-                    <h5 className="counter">
-                      <Counter end={50} decimals={0} />
-                    </h5>
-                    <p>发表论文</p>
-                  </div>
-                  <div className="about-counter-thumb">
-                    <img
-                      src="assets/images/about/about_pattern.png"
-                      alt="image"
-                    />
-                  </div>
-                  <div className="about-countent-content">
-                    <h5 className="counter">
-                      <Counter end={70} decimals={0} />
-                    </h5>
-                    <p>获得专利</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-12">
-              <div className="about-main-title style-two">
-                <h2>深耕行业，科研立身</h2>
-              </div>
-              <div className="about-content">
-                <div className="about-discribtion style-two">
-                  <p>
-                      依托香港科技大学（广州）深厚的科研底蕴，我们在交通领域积累了大量顶尖科研成果，影响了数千万人的日常出行。
-                  </p>
-                </div>
-                <div className="process-ber-plugin">
-                  <span className="process-bar">Website Development</span>
-                  <div id="bar1" className="barfiller">
-                    <div className="tipWrap" style={{ display: "inline" }}>
-                      <span
-                        className="tip"
-                        style={{
-                          left: "334.106px",
-                          transition: "left 7s ease-in-out 0s",
-                        }}
-                      >
-                        85%
-                      </span>
-                    </div>
-                    <span
-                      className="fill"
-                      data-percentage={85}
-                      style={{
-                        background: "rgb(22, 181, 151)",
-                        width: "365.811px",
-                        transition: "width 7s ease-in-out 0s",
-                      }}
-                    />
-                  </div>
-                  <span className="process-bar">Digital Products</span>
-                  <div id="bar2" className="barfiller">
-                    <div className="tipWrap" style={{ display: "inline" }}>
-                      <span
-                        className="tip"
-                        style={{
-                          left: "225.586px",
-                          transition: "left 7s ease-in-out 0s",
-                        }}
-                      >
-                        75%
-                      </span>
-                    </div>
-                    <span
-                      className="fill my-class"
-                      data-percentage={75}
-                      style={{
-                        background: "rgb(22, 181, 151)",
-                        width: "257.944px",
-                        transition: "width 7s ease-in-out 0s",
-                      }}
-                    />
-                  </div>
-                  <span className="process-bar">SEO Analysis</span>
-                  <div id="bar3" className="barfiller">
-                    <div className="tipWrap" style={{ display: "inline" }}>
-                      <span
-                        className="tip"
-                        style={{
-                          left: "225.586px",
-                          transition: "left 7s ease-in-out 0s",
-                        }}
-                      >
-                        90%
-                      </span>
-                    </div>
-                    <span
-                      className="fill my-class"
-                      data-percentage={90}
-                      style={{
-                        background: "rgb(22, 181, 151)",
-                        width: "257.944px",
-                        transition: "width 7s ease-in-out 0s",
-                      }}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/*==================================================*/}
-      {/* End Thrown About Area */}
-      {/*==================================================*/}
-      {/*==================================================*/}
-      {/* Start Thrown Contact Us Area */}
-      {/*==================================================*/}
-      <div className="contact-area">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-7 col-md-12">
-              <div className="section-title contact">
-                <div className="section-main-title contact">
-                  <h2>Contact us Today And Let us</h2>
-                  <h2>Know What you Need</h2>
-                </div>
-                <div className="contact-discription">
-                  <p>
-                    When does a mere internet 'SEO' company grow into a trusted
-                    partner that stays in front of the latest industry trends?
-                    When it's time to partner with Mocer, that's when. saidul
-                    islam
-                  </p>
-                </div>
-                <div className="thrown-btn contact">
-                  <Link legacyBehavior href="/contact-us">
-                    <a className="header-button">
-                      Contact Us{" "}
-                      <span style={{ top: "197.658px", left: "152.499px" }} />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-5 col-md-6">
-              <div className="contact-thumb">
-                <img
-                  src="assets/images/resource/contact-thumb.png"
-                  alt="image"
-                />
-                <div className="contact-shape bounce-animate">
-                  <img
-                    src="assets/images/resource/contact-shape.png"
-                    alt="image"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/*==================================================*/}
-      {/* End Thrown Contact Us Area */}
-      {/*==================================================*/}
+
       {/*==================================================*/}
       {/* Start Thrown Service Style Two Area */}
       {/*==================================================*/}
-      <div className="service-area style-two">
+      <div className="service-area style-two" id="service">
+
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <div className="section-sub-title">
-                  <h4>Provide Services</h4>
+                  <h4>旗下智能体集合</h4>
                 </div>
                 <div className="section-main-title">
-                  <h2>Provide Creative Services For</h2>
-                  <h2>Your Business Growth</h2>
+                  <h2>产品</h2>
                 </div>
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-md-6 col-xl-3">
-              {/* start service items box */}
-              <div className="service-items-box-two">
-                <div className="service-icon-thumb">
-                  <img
-                    src="assets/images/service/service-style1.png"
-                    alt="image"
-                  />
-                </div>
-                <div className="service-items-title">
-                  <h4>
-                    <Link legacyBehavior href="service-details">
-                      Construction Management
-                    </Link>
-                  </h4>
-                </div>
-                <div className="service-items-content-two">
-                  <p>
-                    Services related to financial record-keeping, bookkeeping,
-                    tax preparation.
-                  </p>
-                </div>
-                <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service1.png" alt="image" />
-                  <div className="service-items-icon-two">
-                    <i className="bi bi-arrow-right" />
-                  </div>
-                </div>
-              </div>
-              {/* End service items box */}
-            </div>
-            <div className="col-md-6 col-xl-3">
-              {/* start service items box */}
-              <div className="service-items-box-two">
-                <div className="service-icon-thumb">
-                  <img
-                    src="assets/images/service/service-style2.png"
-                    alt="image"
-                  />
-                </div>
-                <div className="service-items-title">
-                  <h4>
-                    <Link legacyBehavior href="service-details">
-                      Architecture &amp; Building
-                    </Link>
-                  </h4>
-                </div>
-                <div className="service-items-content-two">
-                  <p>
-                    Services related to financial record-keeping, bookkeeping,
-                    tax preparation.
-                  </p>
-                </div>
-                <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service2.png" alt="image" />
-                  <div className="service-items-icon-two">
-                    <i className="bi bi-arrow-right" />
-                  </div>
-                </div>
-              </div>
-              {/* End service items box */}
-            </div>
             <div className="col-md-6 col-xl-3">
               {/* start service items box */}
               <div className="service-items-box-two">
@@ -326,15 +81,198 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="service-details">
-                      Facade Engineering
+                    <Link legacyBehavior href="/demo/llmlight">
+                      LLMLight
+                    </Link>
+                  </h4>
+                  <p></p>
+                  <p>交通信控智能体</p>
+                </div>
+                <div className="service-items-content-two">
+                  <p>
+                    大模型区域交通信号控制智能体，用于优化路网交通流量。
+                  </p>
+                </div>
+                <div className="service-items-icon-two">
+                  <i className="bi bi-arrow-right" />
+                </div>
+                <div className="service-items-thumb-two">
+                  {/* <img src="assets/images/service/service3.png" alt="image" /> */}
+                </div>
+              </div>
+              {/* End service items box */}
+            </div>
+
+            <div className="col-md-6 col-xl-3">
+              {/* start service items box */}
+              <div className="service-items-box-two">
+                <div className="service-icon-thumb">
+                  <img
+                    src="assets/images/service/service-style4.png"
+                    alt="image"
+                  />
+                </div>
+                <div className="service-items-title">
+                  <h4>
+                    <Link legacyBehavior href="/demo/eta">
+                    iETA
+                    </Link>
+                  </h4>
+                  <p></p>
+                  <p>出行时间预测智能体</p>
+                </div>
+                <div className="service-items-content-two">
+                  <p>
+                  鲁棒可扩展的增量ETA预测智能体。
+                  </p>
+                </div>
+                <div className="service-items-icon-two">
+                  <i className="bi bi-arrow-right" />
+                </div>
+                <div className="service-items-thumb-two">
+                  {/* <img src="assets/images/service/service4.png" alt="image" /> */}
+                </div>
+              </div>
+              {/* End service items box */}
+            </div>
+
+            <div className="col-md-6 col-xl-3">
+              {/* start service items box */}
+              <div className="service-items-box-two">
+                <div className="service-icon-thumb">
+                  <img
+                    src="assets/images/service/service-style4.png"
+                    alt="image"
+                  />
+                </div>
+                <div className="service-items-title">
+                  <h4>
+                    <Link legacyBehavior href="/demo/eta">
+                    ProbETA
+                    </Link>
+                  </h4>
+                  
+                  <p></p>
+                  <p>出行时间预测智能体</p>
+                </div>
+                <div className="service-items-content-two">
+                  <p>
+                  不确定性感知的ETA概率预测智能体。
+                  </p>
+                </div>
+                <div className="service-items-icon-two">
+                  <i className="bi bi-arrow-right" />
+                </div>
+                <div className="service-items-thumb-two">
+                  {/* <img src="assets/images/service/service4.png" alt="image" /> */}
+                </div>
+              </div>
+              {/* End service items box */}
+            </div>
+
+
+            <div className="col-md-6 col-xl-3">
+              {/* start service items box */}
+              <div className="service-items-box-two">
+                <div className="service-icon-thumb">
+                  <img
+                    src="assets/images/service/service-style4.png"
+                    alt="image"
+                  />
+                </div>
+                <div className="service-items-title">
+                  <h4>
+                    <Link legacyBehavior href="/demo/eta">
+                    CP-MoE
+                    </Link>
+                  </h4>
+                  <p></p>
+                  <p>拥堵预测智能体</p>
+                </div>
+                <div className="service-items-content-two">
+                  <p>
+                  城市拥堵预测的可解释级联混合专家模型
+                  </p>
+                </div>
+                <div className="service-items-icon-two">
+                  <i className="bi bi-arrow-right" />
+                </div>
+                <div className="service-items-thumb-two">
+                  {/* <img src="assets/images/service/service4.png" alt="image" /> */}
+                </div>
+              </div>
+              {/* End service items box */}
+            </div>
+
+            <div className="col-md-6 col-xl-3">
+              {/* start service items box */}
+              <div className="service-items-box-two">
+                <div className="service-icon-thumb">
+                  <img
+                    src="assets/images/service/service-style4.png"
+                    alt="image"
+                  />
+                </div>
+                <div className="service-items-title">
+                  <h4>
+                    <Link legacyBehavior href="/demo/eta">
+                    CP-MoE
+                    </Link>
+                  </h4>
+                  <p></p>
+                  <p>拥堵预测智能体</p>
+                </div>
+                <div className="service-items-content-two">
+                  <p>
+                  城市拥堵预测的可解释级联混合专家模型
+                  </p>
+                </div>
+                <div className="service-items-icon-two">
+                  <i className="bi bi-arrow-right" />
+                </div>
+                <div className="service-items-thumb-two">
+                  {/* <img src="assets/images/service/service4.png" alt="image" /> */}
+                </div>
+              </div>
+              {/* End service items box */}
+            </div>
+
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center">
+                <div className="section-sub-title">
+                  <h4>大模型+交通，下一代智慧交通解决方案</h4>
+                </div>
+                <div className="section-main-title">
+                  <h2>服务</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6 col-xl-3">
+              {/* start service items box */}
+              <div className="service-items-box-two">
+                <div className="service-icon-thumb">
+                  <img
+                    src="assets/images/service/service-style3.png"
+                    alt="image"
+                  />
+                </div>
+                <div className="service-items-title">
+                  <h4>
+                    <Link legacyBehavior href="/service#solution1">
+                      智慧交管
                     </Link>
                   </h4>
                 </div>
                 <div className="service-items-content-two">
                   <p>
-                    Services related to financial record-keeping, bookkeeping,
-                    tax preparation.
+                    主要面向交管部门的人工智能解决方案。
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
@@ -357,15 +295,14 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="service-details">
-                      Tiling And Painting
+                    <Link legacyBehavior href="/service#solution2">
+                      智慧出行
                     </Link>
                   </h4>
                 </div>
                 <div className="service-items-content-two">
                   <p>
-                    Services related to financial record-keeping, bookkeeping,
-                    tax preparation.
+                    主要面向私营出行平台的人工智能解决方案。
                   </p>
                 </div>
                 <div className="service-items-thumb-two">
@@ -377,62 +314,143 @@ const Index2 = () => {
               </div>
               {/* End service items box */}
             </div>
+            
+            {/* <div className="col-md-6 col-xl-4">
+              <div className="service-items-box-two">
+                <div className="service-icon-thumb">
+                  <img
+                    src="assets/images/service/service-style2.png"
+                    alt="image"
+                  />
+                </div>
+                <div className="service-items-title">
+                  <h4>
+                    <Link legacyBehavior href="/big-data">
+                    城市大数据分析
+                    </Link>
+                  </h4>
+                </div>
+                <div className="service-items-content-two">
+                  <p>
+                    基于城市认知技术的城市分析平台，可以为政府及商业部门提供具有深度洞察力的研究报告。
+                  </p>
+                </div>
+                <div className="service-items-thumb-two">
+                  <img src="assets/images/service/service2.png" alt="image" />
+                  <div className="service-items-icon-two">
+                    <i className="bi bi-arrow-right" />
+                  </div>
+                </div>
+              </div>
+            </div> */}
+            
           </div>
         </div>
       </div>
       {/*==================================================*/}
       {/* End Thrown Service Style Two Area */}
       {/*==================================================*/}
+
+
+
       {/*==================================================*/}
       {/* Start Thrown Choose Area */}
       {/*==================================================*/}
-      <div className="choose-area">
+      <div className="choose-area" id="academic">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="choose-content">
                 <div className="section-title">
                   <div className="section-sub-title choose">
-                    <h4>We Provide Best Solution</h4>
+                    <h4></h4>
                   </div>
                   <div className="section-main-title choose">
-                    <h2>Reason For Choosing</h2>
-                    <h2>Our Consultancy</h2>
+                    <h2>学术</h2>
                   </div>
                 </div>
                 <div className="choose-discription">
                   <p>
-                    Providing legal advice, contract drafting, coance
-                    assistance, intellectual property protection, and other
-                    legal support for businesses. Creating visual content, such
-                    as logos, brochures, infographics, and other branding
-                    materials.
+                    了解我们的最新科研成果和研究方向。
                   </p>
                 </div>
-                <div className="choose-single-box">
-                  <div className="choose-icon">
-                    <img src="assets/images/resource/choose1.png" alt="image" />
+
+                {/* <div className="about-counter">
+                  <div className="about-counter-thumb">
+                    <img
+                      src="assets/images/about/about_paper.png"
+                      alt="image"
+                    />
                   </div>
-                  <div className="choose-content">
-                    <h4>Accounting and Bookkeeping</h4>
-                    <p>We provide a range of digital marketing solutions.</p>
+                  <div className="about-counter-content">
+                    <h5 className="counter">
+                      <Counter end={50} decimals={0} />
+                    </h5>
+                    <p>发表论文</p>
+                  </div>
+                  <div className="about-counter-thumb">
+                    <img
+                      src="assets/images/about/about_pattern.png"
+                      alt="image"
+                    />
+                  </div>
+                  <div className="about-counter-content">
+                    <h5 className="counter">
+                      <Counter end={70} decimals={0} />
+                    </h5>
+                    <p>获得专利</p>
+                  </div>
+                </div> */}
+                <div className="choose-single-box row">
+
+                  <div className="choose-icon col-lg-4">
+                    <div className="about-counter-thumb">
+                      <img
+                        src="assets/images/about/about_paper.png"
+                        alt="image"
+                      />
+                    </div>
+
+                    {/* <img src="assets/images/resource/choose1.png" alt="image" /> */}
+                  </div>
+                  <div className="choose-content col-lg-8">
+                    <a href="https://raymondhliu.github.io/publications/">
+                      <h4>发表论文</h4>
+                    </a>
+                    <div className="about-counter-content">
+                      <h5 className="counter">
+                        <Counter end={50} decimals={0} />
+                      </h5>
+                    </div>
                   </div>
                 </div>
-                <div className="choose-single-box">
-                  <div className="choose-icon">
-                    <img src="assets/images/resource/choose2.png" alt="image" />
+                <div className="choose-single-box row">
+
+                  <div className="choose-icon col-lg-8">
+                    <div className="about-counter-thumb">
+                      <img
+                        src="assets/images/about/about_pattern.png"
+                        alt="image"
+                      />
+                    </div>
+
+                    {/* <img src="assets/images/resource/choose1.png" alt="image" /> */}
                   </div>
-                  <div className="choose-content">
-                    <h4>Customer Service And Support</h4>
-                    <p>
-                      Our pricing varies depending on the specific services you
-                    </p>
+                  <div className="choose-content col-lg-4">
+
+                    <h4>获得专利数</h4>
+                    <div className="about-counter-content">
+                      <h5 className="counter">
+                        <Counter end={60} decimals={0} />
+                      </h5>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
-              <div className="single-video style-two">
+            
+              {/* <div className="single-video style-two">
                 <div className="video-icon style-two">
                   <a
                     className="video-vemo-icon venobox vbox-item"
@@ -443,8 +461,8 @@ const Index2 = () => {
                     <i className="bi bi-play" />
                   </a>
                 </div>
-              </div>
-              <div className="choose-contact">
+              </div> */}
+              {/* <div className="choose-contact">
                 <div className="row">
                   <div className="col-lg-4 col-md-12">
                     <div className="subscribe-title">
@@ -478,480 +496,83 @@ const Index2 = () => {
                     </form>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
+            <div className="thrown-btn contact" >
+                  <Link legacyBehavior href="/demo">
+                    <a className="header-button">
+                      研究成果演示
+                      <span style={{ top: "197.658px", left: "152.499px" }} />
+                    </a>
+                  </Link>
+                </div>
           </div>
         </div>
       </div>
       {/*==================================================*/}
       {/* End Thrown Choose Area */}
       {/*==================================================*/}
+
+
       {/*==================================================*/}
-      {/* Start Thrown Work Process Area */}
+      {/* Start Thrown About Area */}
       {/*==================================================*/}
-      <div className="work-process-area">
+      <div className="about-area style-two" id="about">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">
-              <div className="section-title text-center">
-                <div className="section-sub-title">
-                  <h4>Working Process</h4>
-                </div>
-                <div className="section-main-title work">
-                  <h2>Check How We Work in </h2>
-                  <h2>Easy Steps</h2>
-                </div>
+            {/* <div className="col-lg-6 col-md-12">
+              <div className="about-thumb">
+                <img src="assets/images/about/hkust_gz.jpg" alt="image" />
               </div>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="work-process-single-box">
-                <div className="work-process-thumb">
-                  <img src="assets/images/resource/work1.png" alt="image" />
-                  <div className="work-process-shape rotateme">
-                    <img
-                      src="assets/images/resource/work-border-shape.png"
-                      alt="image"
-                    />
-                  </div>
-                  <div className="work-process-number">
-                    <h4>01</h4>
-                  </div>
-                  <div className="work-process-content">
-                    <h4>
-                      <Link legacyBehavior href="project-details">
-                        General Contract
-                      </Link>
-                    </h4>
-                    <p>
-                      We provide a range of digital marketing lutions including
-                      website design
-                    </p>
-                  </div>
+            <div className="col-lg-6 col-md-12">
+              <div className="about-main-title style-two">
+                <h2>深耕行业，科研立身</h2>
+              </div>
+              <div className="about-content">
+                <div className="about-discribtion style-two">
+                  <p>
+                      我们是一个以教授、博士生为主干的创业团队，依托香港科技大学（广州）深厚的科研底蕴，我们在交通领域积累了大量顶尖科研成果，并应用到行业头部出行平台，每天影响数千万人的日常出行。
+                  </p>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="work-process-single-box">
-                <div className="work-process-thumb">
-                  <img src="assets/images/resource/work2.png" alt="image" />
-                  <div className="work-process-shape rotateme">
-                    <img
-                      src="assets/images/resource/work-border-shape.png"
-                      alt="image"
-                    />
-                  </div>
-                  <div className="work-process-number">
-                    <h4>02</h4>
-                  </div>
-                  <div className="work-process-content">
-                    <h4>
-                      <Link legacyBehavior href="project-details">
-                        Project Planing
-                      </Link>
-                    </h4>
-                    <p>
-                      We provide a range of digital marketing lutions including
-                      website design.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="work-process-single-box work">
-                <div className="work-process-thumb">
-                  <img src="assets/images/resource/work3.png" alt="image" />
-                  <div className="work-process-shape rotateme">
-                    <img
-                      src="assets/images/resource/work-border-shape.png"
-                      alt="image"
-                    />
-                  </div>
-                  <div className="work-process-number">
-                    <h4>03</h4>
-                  </div>
-                  <div className="work-process-content">
-                    <h4>
-                      <Link legacyBehavior href="project-details">
-                        Interior Design
-                      </Link>
-                    </h4>
-                    <p>
-                      We provide a range of digital marketing lutions including
-                      website design.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </div> */}
+            <TeamList/>
           </div>
         </div>
       </div>
       {/*==================================================*/}
-      {/* End Thrown Work Process Area */}
+      {/* End Thrown About Area */}
       {/*==================================================*/}
+
+
+
       {/*==================================================*/}
-      {/* Start Thrown Pricing Area */}
+      {/* Start Thrown Contact Us Area */}
       {/*==================================================*/}
-      <div className="pricing-area">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section-title text-center">
-                <div className="section-sub-title">
-                  <h4>Pricing Plan</h4>
-                </div>
-                <div className="section-main-title pricing">
-                  <h2>Our Best Price Plan</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="pricing-single-box">
-                <div className="pricing-content">
-                  <div className="pricing-title">
-                    <h3>Basic Pack</h3>
-                  </div>
-                  <div className="pricing-rate">
-                    <h3>
-                      <span>$</span>30
-                    </h3>
-                    <span>.99</span>
-                  </div>
-                  <div className="pricing-time">
-                    <span>
-                      <i className="bi bi-alarm" /> 33 Min
-                    </span>
-                  </div>
-                  <div className="pricing-list">
-                    <span>
-                      <i className="bi bi-check2" /> Powerful Admin Panel
-                    </span>
-                    <span>
-                      <i className="bi bi-check2" /> 1 Native Android App
-                    </span>
-                    <span>
-                      <i className="bi bi-check2" /> Multi-Language Support
-                    </span>
-                    <span className="inner">
-                      <i className="bi bi-x" /> Advance Options
-                    </span>
-                  </div>
-                </div>
-                <div className="thrown-btn pircing">
-                  <Link legacyBehavior href="/contact-us">
-                    <a className="header-button">
-                      Purchase Now <span />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="pricing-single-box">
-                <div className="pricing-content">
-                  <div className="pricing-title">
-                    <h3>Basic Pack</h3>
-                  </div>
-                  <div className="pricing-rate">
-                    <h3>
-                      <span>$</span>30
-                    </h3>
-                    <span>.99</span>
-                  </div>
-                  <div className="pricing-time">
-                    <span>
-                      <i className="bi bi-alarm" /> 33 Min
-                    </span>
-                  </div>
-                  <div className="pricing-list">
-                    <span>
-                      <i className="bi bi-check2" /> Powerful Admin Panel
-                    </span>
-                    <span>
-                      <i className="bi bi-check2" /> 1 Native Android App
-                    </span>
-                    <span>
-                      <i className="bi bi-check2" /> Multi-Language Support
-                    </span>
-                    <span className="inner">
-                      <i className="bi bi-x" /> Advance Options
-                    </span>
-                  </div>
-                </div>
-                <div className="thrown-btn pircing">
-                  <Link legacyBehavior href="/contact-us">
-                    <a className="header-button">
-                      Purchase Now <span />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="pricing-single-box">
-                <div className="pricing-content">
-                  <div className="pricing-title">
-                    <h3>Basic Pack</h3>
-                  </div>
-                  <div className="pricing-rate">
-                    <h3>
-                      <span>$</span>30
-                    </h3>
-                    <span>.99</span>
-                  </div>
-                  <div className="pricing-time">
-                    <span>
-                      <i className="bi bi-alarm" /> 33 Min
-                    </span>
-                  </div>
-                  <div className="pricing-list">
-                    <span>
-                      <i className="bi bi-check2" /> Powerful Admin Panel
-                    </span>
-                    <span>
-                      <i className="bi bi-check2" /> 1 Native Android App
-                    </span>
-                    <span>
-                      <i className="bi bi-check2" /> Multi-Language Support
-                    </span>
-                    <span className="inner">
-                      <i className="bi bi-x" /> Advance Options
-                    </span>
-                  </div>
-                </div>
-                <div className="thrown-btn pircing">
-                  <Link legacyBehavior href="/contact-us">
-                    <a className="header-button">
-                      Purchase Now <span />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/*==================================================*/}
-      {/* End Thrown Pricing Area */}
-      {/*==================================================*/}
-      {/*==================================================*/}
-      {/* Start Thrown Team Area */}
-      {/*==================================================*/}
-      <div className="team-area style-two">
+      <div className="contact-area" id="contact">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12">
-              <div className="section-main-title team2">
-                <h2>Working With Excellentour</h2>
-                <h2>Great Team</h2>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-12">
-              <div className="team-discription">
-                <p>
-                  We provide SEO services to help your website rank higher on
-                  search engines like Google.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-6 col-xl-3">
-              <div className="team-items-box">
-                <div className="team-item-thumb">
-                  <img src="assets/images/team/team4.png" alt="image" />
-                </div>
-                <div className="team-item-content">
-                  <h4>
-                    <Link legacyBehavior href="team-details">
-                      Rakabuming Suhu
-                    </Link>
-                  </h4>
-                  <span>Marketing Officer</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-3">
-              <div className="team-items-box">
-                <div className="team-item-thumb">
-                  <img src="assets/images/team/team5.png" alt="image" />
-                </div>
-                <div className="team-item-content">
-                  <h4>
-                    <Link legacyBehavior href="team-details">
-                      Nancy Lawson
-                    </Link>
-                  </h4>
-                  <span>Account Manager</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-3">
-              <div className="team-items-box">
-                <div className="team-item-thumb">
-                  <img src="assets/images/team/team6.png" alt="image" />
-                </div>
-                <div className="team-item-content">
-                  <h4>
-                    <Link legacyBehavior href="team-details">
-                      Dunith Wellalage
-                    </Link>
-                  </h4>
-                  <span>Backend Developer</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-xl-3">
-              <div className="team-items-box">
-                <div className="team-item-thumb">
-                  <img src="assets/images/team/team7.png" alt="image" />
-                </div>
-                <div className="team-item-content">
-                  <h4>
-                    <Link legacyBehavior href="team-details">
-                      Lahiru Samarakoon
-                    </Link>
-                  </h4>
-                  <span>Founder, CTO</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/*==================================================*/}
-      {/* End Thrown Team Area */}
-      {/*==================================================*/}
-      {/*==================================================*/}
-      {/* Start Thrown Teatimonial Style Two Area */}
-      {/*==================================================*/}
-      <div className="testimonial-area style-two">
-        <div className="container">
-          <div className="row">
-            <div className="testi_list2 position-relative">
-              <Swiper {...sliderProps.testimonial2}>
-                <SwiperSlide className="col-lg-12">
-                  <div className="testimonial-items-box">
-                    <div className="testimonial-item-thumb">
-                      <img
-                        src="assets/images/testimonial/testi-3.png"
-                        alt="image"
-                      />
-                    </div>
-                    <div className="testimonial-item-content">
-                      <div className="testimonial-icon">
-                        <i className="bi bi-star-fill" />
-                        <i className="bi bi-star-fill" />
-                        <i className="bi bi-star-fill" />
-                        <i className="bi bi-star-fill" />
-                        <i className="bi bi-star-fill" />
-                      </div>
-                      <div className="testimonial-discription">
-                        <p>
-                          I've been using [business name] for the past year and
-                          I'm so glad I did. Their products and services are
-                          top-notch and their customer service is amazing. I
-                          would highly recommend them to anyone
-                        </p>
-                      </div>
-                      <div className="testimonial-title">
-                        <h4>Kamindu Mendis</h4>
-                        <span>UI/UX Designar</span>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="col-lg-12">
-                  <div className="testimonial-items-box">
-                    <div className="testimonial-item-thumb">
-                      <img
-                        src="assets/images/testimonial/testi-3.png"
-                        alt="image"
-                      />
-                    </div>
-                    <div className="testimonial-item-content">
-                      <div className="testimonial-icon">
-                        <i className="bi bi-star-fill" />
-                        <i className="bi bi-star-fill" />
-                        <i className="bi bi-star-fill" />
-                        <i className="bi bi-star-fill" />
-                        <i className="bi bi-star-fill" />
-                      </div>
-                      <div className="testimonial-discription">
-                        <p>
-                          I've been using [business name] for the past year and
-                          I'm so glad I did. Their products and services are
-                          top-notch and their customer service is amazing. I
-                          would highly recommend them to anyone
-                        </p>
-                      </div>
-                      <div className="testimonial-title">
-                        <h4>Kamindu Mendis</h4>
-                        <span>UI/UX Designar</span>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              </Swiper>
-              <div className="owl-nav">
-                <div className="owl-prev testimonial-2-prev">
-                  <i className="bi bi-arrow-left" />
-                </div>
-                <div className="owl-next testimonial-2-next">
-                  <i className="bi bi-arrow-right" />
-                </div>
-              </div>
-            </div>
-            <div className="testimonial-shape">
-              <img
-                src="assets/images/testimonial/testi-shape.png"
-                alt="image"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      {/*==================================================*/}
-      {/* Start Thrown Teatimonial Style Two Area */}
-      {/*==================================================*/}
-      {/*==================================================*/}
-      {/* Start Thrown Contact Style Two Area */}
-      {/*==================================================*/}
-      <div className="contact-area-three">
-        <div className="container">
-          <div className="row">
             <div className="col-lg-7 col-md-12">
-              <div className="section-title">
-                <div className="section-sub-title contact-thrree">
-                  <h4>Contact With Us</h4>
+              <div className="section-title contact">
+                <div className="section-main-title contact">
+                  <h2>联系我们</h2>
+                  <h2>一起改变世界</h2>
                 </div>
-                <div className="section-main-title contact-thrree">
-                  <h2>Let’s Work Together?</h2>
+                <div className="contact-discription">
+                  <p>你知道大模型除了写诗画画之外还能做什么吗？我们希望大模型可以真正服务人类，而不是代替人类。现在跟我们联系，了解怎样让大模型做大模型该做的事，把有趣的事留给它们的创造者。</p>
                 </div>
+                {/* <div className="thrown-btn contact">
+                  <Link legacyBehavior href="/contact-us">
+                    <a className="header-button">
+                      联系我们{" "}
+                      <span style={{ top: "197.658px", left: "152.499px" }} />
+                    </a>
+                  </Link>
+                </div> */}
+                
               </div>
-              <div className="contact-three-discription">
-                <p>
-                  Providing legal advice, contract drafting, compliance
-                  assistance, intellectual property protection, and other legal
-                  support for businesses.
-                </p>
-              </div>
-              <div className="contact-list">
-                <span>
-                  <i className="bi bi-chevron-double-right" /> Refreshing to get
-                  such a personal touch
-                </span>
-                <span>
-                  {" "}
-                  <i className="bi bi-chevron-double-right" />
-                  Velit esse cillum dolore eu
-                </span>
-              </div>
+
               <div className="row">
                 <div className="col-lg-6 col-md-6">
                   <div className="contact-single-box">
@@ -959,8 +580,9 @@ const Index2 = () => {
                       <i className="bi bi-telephone-plus" />
                     </div>
                     <div className="contact-content">
-                      <h5>Have Any Question?</h5>
-                      <h3>+ 014x4531 9504</h3>
+                      {/* <h3>电话</h3> */}
+                      <h3>17610309866</h3>
+                      <h3>（刘老师）</h3>
                     </div>
                   </div>
                 </div>
@@ -970,200 +592,49 @@ const Index2 = () => {
                       <i className="bi bi-envelope" />
                     </div>
                     <div className="contact-content">
-                      <h5>Send Email</h5>
-                      <h3>example@gmail.com</h3>
+                      {/* <h3>邮箱</h3> */}
+                      <h3>liuh@ust.hk</h3>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 col-md-12">
-              <div className="contact-box">
-                <div className="contact-title">
-                  <h4>Contact Us</h4>
+            <div className="col-lg-5 col-md-6">
+              <div className="contact-thumb">
+                <img
+                  src="assets/images/resource/contact-thumb.png"
+                  alt="image"
+                />
+                <div className="contact-shape bounce-animate">
+                  <img
+                    src="assets/images/resource/contact-shape.png"
+                    alt="image"
+                  />
                 </div>
-                <form
-                  action="https://formspree.io/f/myyleorq"
-                  method="post"
-                  id="it-form"
-                >
-                  <div className="row">
-                    <div className="col-lg-12">
-                      <div className="form-box">
-                        <input
-                          type="text"
-                          name="name"
-                          placeholder="Your Name"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form-box">
-                        <input
-                          type="text"
-                          name="email"
-                          placeholder="Your Email"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form-box">
-                        <textarea
-                          name="message"
-                          placeholder="Message here .."
-                          defaultValue={""}
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form-box-button contact">
-                        <button type="Submit">Read More</button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
               </div>
             </div>
           </div>
+          
         </div>
       </div>
       {/*==================================================*/}
-      {/* End Thrown Contact Us Style Two Area */}
+      {/* End Thrown Contact Us Area */}
       {/*==================================================*/}
+
+
+      <div className="offer-area inner-page" id="offer">
+        <div className="container">
+          <OfferList />
+        </div>
+      </div>
+
       {/*==================================================*/}
       {/* Start Thrown Brand Area */}
       {/*==================================================*/}
-      <BrandSlider />
       {/*==================================================*/}
       {/* End Thrown Brand Area */}
       {/*==================================================*/}
-      {/*==================================================*/}
-      {/* Start Thrown Blog Area */}
-      {/*==================================================*/}
-      <div className="blog-area style-two">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section-title text-center">
-                <div className="section-sub-title">
-                  <h4>Our Blog update</h4>
-                </div>
-                <div className="section-main-title">
-                  <h2>Recent Important Stories</h2>
-                  <h2>Daily Updated</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-single-box style-two">
-                <div className="blog-thumb">
-                  <img src="assets/images/blog/blog1.png" alt="image" />
-                  <div className="blog-meta-date">
-                    <h5>15</h5>
-                    <span>May</span>
-                  </div>
-                </div>
-                <div className="blog-content style-two">
-                  <div className="blog-meta style-two">
-                    <span>
-                      <i className="bi bi-person" />
-                      By Admin
-                    </span>
-                    <span>
-                      <i className="bi bi-chat-left" /> (05)
-                    </span>
-                  </div>
-                  <div className="blog-title style-two">
-                    <h4>
-                      <Link legacyBehavior href="blog-details">
-                        Smashing Podcast Episode With Trine Falbe Martin
-                      </Link>
-                    </h4>
-                  </div>
-                  <div className="blog-btn style-two">
-                    <a href="#">
-                      Read More <i className="bi bi-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-single-box style-two">
-                <div className="blog-thumb">
-                  <img src="assets/images/blog/blog2.png" alt="image" />
-                  <div className="blog-meta-date">
-                    <h5>15</h5>
-                    <span>May</span>
-                  </div>
-                </div>
-                <div className="blog-content style-two">
-                  <div className="blog-meta style-two">
-                    <span>
-                      <i className="bi bi-person" />
-                      By Admin
-                    </span>
-                    <span>
-                      <i className="bi bi-chat-left" /> (05)
-                    </span>
-                  </div>
-                  <div className="blog-title style-two">
-                    <h4>
-                      <Link legacyBehavior href="blog-details">
-                        Business Opening &amp; Various Ownership Forms
-                      </Link>
-                    </h4>
-                  </div>
-                  <div className="blog-btn style-two">
-                    <a href="#">
-                      Read More <i className="bi bi-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="blog-single-box style-two">
-                <div className="blog-thumb">
-                  <img src="assets/images/blog/blog3.png" alt="image" />
-                  <div className="blog-meta-date">
-                    <h5>15</h5>
-                    <span>May</span>
-                  </div>
-                </div>
-                <div className="blog-content style-two">
-                  <div className="blog-meta style-two">
-                    <span>
-                      <i className="bi bi-person" />
-                      By Admin
-                    </span>
-                    <span>
-                      <i className="bi bi-chat-left" /> (05)
-                    </span>
-                  </div>
-                  <div className="blog-title style-two">
-                    <h4>
-                      <Link legacyBehavior href="blog-details">
-                        Tips for Effective Client Design Agency
-                      </Link>
-                    </h4>
-                  </div>
-                  <div className="blog-btn style-two">
-                    <a href="#">
-                      Read More <i className="bi bi-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/*==================================================*/}
-      {/* End Thrown Blog Area */}
-      {/*==================================================*/}
+ 
     </ThrownLayout>
   );
 };

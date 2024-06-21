@@ -25,19 +25,50 @@ export const thrownutility = {
       });
     });
   },
-  stickyHeader() {
+
+  stickySubHeader(height) {
     var wind = window;
-    var sticky = document.getElementById("sticky-header");
+    var sticky = document.getElementById("sticky-subheader");
     if (sticky) {
       wind.addEventListener("scroll", function () {
         var scroll = wind.scrollY || document.documentElement.scrollTop;
-        if (scroll < 100) {
+        if (scroll < height) {
           sticky.classList.remove("sticky-nav");
         } else {
           sticky.classList.add("sticky-nav");
         }
       });
     }
+  },
+
+  updateBackground(background) {
+    // var wind = window;
+    var bg = document.getElementById("background");
+    if(bg){
+      // alert("----" + background);
+      // alert(bg.style.getPropertyPriority("background"));
+      bg.style.background = "url(" +  background + ") center";
+      bg.style.backgroundRepeat = "no-repeat";
+      bg.style.backgroundSize = "cover";
+      bg.style.backgroundPosition = "center";
+      // alert(bg.style.getPropertyValue("background"));
+    }
+  },
+
+
+  stickyHeader() {
+    var wind = window;
+    // var sticky = document.getElementById("sticky-header");
+    // if (sticky) {
+    //   wind.addEventListener("scroll", function () {
+    //     var scroll = wind.scrollY || document.documentElement.scrollTop;
+    //     if (scroll < 100) {
+    //       sticky.classList.remove("sticky-nav");
+    //     } else {
+    //       sticky.classList.add("sticky-nav");
+    //     }
+    //   });
+    // }
 
     var wind = window;
     var navbar = document.getElementById("navbar");
@@ -45,7 +76,7 @@ export const thrownutility = {
       wind.addEventListener("scroll", function () {
         var scroll = wind.scrollY || document.documentElement.scrollTop;
 
-        if (scroll < 100) {
+        if (scroll < 80) {
           navbar.classList.remove("sticky-menu");
         } else {
           navbar.classList.add("sticky-menu");
