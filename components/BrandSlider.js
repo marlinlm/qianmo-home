@@ -14,7 +14,7 @@ const BrandSlider = ({ dark }) => {
             <Swiper {...sliderProps.brand_list}>
               <SwiperSlide className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="/assets/images/brand/icon_hkust.png" alt="image" />
+                  <img src="assets/images/brand/icon_hkust.png" alt="image" />
                   <p></p>
                   <p>香港科技大学（广州）</p>
                 </div>
@@ -22,14 +22,14 @@ const BrandSlider = ({ dark }) => {
 
               <SwiperSlide className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="/assets/images/brand/icon_baidu_4.png" alt="image" />
+                  <img src="assets/images/brand/icon_baidu_4.png" alt="image" />
                   <p></p>
                   <p>百度研究院</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="/assets/images/brand/icon_didi2.png" alt="image" />
+                  <img src="assets/images/brand/icon_didi2.png" alt="image" />
                   <p></p>
                   <p>滴滴出行</p>
                 </div>
@@ -37,21 +37,21 @@ const BrandSlider = ({ dark }) => {
 
               <SwiperSlide className="col-lg-12">
                 <div className="brand-thumb">
-                  <img src="/assets/images/brand/icon_aliyun.png" alt="image" />
+                  <img src="assets/images/brand/icon_aliyun.png" alt="image" />
                   <p></p>
                   <p>阿里云</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="col-lg-12 ">
                 <div className="brand-thumb">
-                  <img src="/assets/images/brand/icon_baidu.png" alt="image" />
+                  <img src="assets/images/brand/icon_baidu.png" alt="image" />
                   <p></p>
                   <p>百度地图</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="col-lg-12 ">
                 <div className="brand-thumb">
-                  <img src="/assets/images/brand/icon_baidu_cloud.png" alt="image" />
+                  <img src="assets/images/brand/icon_baidu_cloud.png" alt="image" />
                   <p></p>
                   <p>百度云</p>
                 </div>

@@ -15,7 +15,7 @@ const page = () => {
                   {/* start blog details single box */}
                   <div className="blog-details-box">
                     <div className="blog-details-thumb">
-                      <img src="/assets/images/resource/traffic.png" alt="" />
+                      <img src="assets/images/resource/traffic.png" alt="" />
                     </div>
                     <div className="blog-detaile-title">
                       <h4>

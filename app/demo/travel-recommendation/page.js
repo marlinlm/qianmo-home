@@ -15,7 +15,7 @@ const page = () => {
                   {/* start blog details single box */}
                   <div className="blog-details-box">
                     <div className="blog-details-thumb">
-                      <img src="/assets/images/resource/travel_rec_thumb.png" alt="" />
+                      <img src="assets/images/resource/travel_rec_thumb.png" alt="" />
                     </div>
                   </div>
                   {/* End blog details single box */}
@@ -67,7 +67,7 @@ const page = () => {
                   
                   <div className="col-lg-5 col-md-12">
                     <div className="blog-details-thumb">
-                      <img src="/assets/images/resource/travel_rec_ref_5.png" alt=""/>
+                      <img src="assets/images/resource/travel_rec_ref_5.png" alt=""/>
                       <h4>Trans2vec 系统架构</h4>
                     </div>
                   </div>
@@ -77,7 +77,7 @@ const page = () => {
                   </div>
                   <div className="col-lg-5 col-md-12">
                     <div className="blog-details-thumb">
-                      <img src="/assets/images/resource/travel_rec_ref_2.png" alt=""/>
+                      <img src="assets/images/resource/travel_rec_ref_2.png" alt=""/>
                       <h4>Hydra 系统架构</h4>
                     </div>
                   </div>
@@ -117,7 +117,7 @@ const page = () => {
                         <div className="row align-items-center">
                           <div className="col-lg-12 col-md-12">
                             <div className="blog-details-thumb">
-                              <img src="/assets/images/resource/travel_rec_ref_6.png" alt=""/>
+                              <img src="assets/images/resource/travel_rec_ref_6.png" alt=""/>
                             </div>
                           </div>
                         </div>
@@ -163,7 +163,7 @@ const page = () => {
                         <div className="row align-items-center">
                           <div className="col-lg-12 col-md-12">
                             <div className="blog-details-thumb">
-                              <img src="/assets/images/resource/travel_rec_ref_3.png" alt=""/>
+                              <img src="assets/images/resource/travel_rec_ref_3.png" alt=""/>
                             </div>
                           </div>
                         </div>

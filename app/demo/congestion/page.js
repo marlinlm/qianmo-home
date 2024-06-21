@@ -15,7 +15,7 @@ const page = () => {
                   {/* start blog details single box */}
                   <div className="blog-details-box">
                     <div className="blog-details-thumb">
-                      <img src="/assets/images/resource/traffic.png" alt="" />
+                      <img src="assets/images/resource/traffic.png" alt="" />
                       
                     </div>
                     <div className="blog-detaile-title">
@@ -52,7 +52,7 @@ const page = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-12 col-md-12">
                     <div className="blog-details-thumb">
-                      <img src="/assets/images/resource/congestion_res1.png" alt=""/>
+                      <img src="assets/images/resource/congestion_res1.png" alt=""/>
                       <h4>CP-MoE 模型架构</h4>
                     </div>
                   </div>
@@ -141,7 +141,7 @@ const page = () => {
                           <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">
                               <div className="blog-details-thumb">
-                                <img src="/assets/images/resource/congestion_res_2.png" alt=""/>
+                                <img src="assets/images/resource/congestion_res_2.png" alt=""/>
                               </div>
                             </div>
                           </div>
@@ -151,7 +151,7 @@ const page = () => {
                           <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">
                               <div className="blog-details-thumb">
-                                <img src="/assets/images/resource/congestion_res_3.png" alt=""/>
+                                <img src="assets/images/resource/congestion_res_3.png" alt=""/>
                               </div>
                             </div>
                           </div>
@@ -161,7 +161,7 @@ const page = () => {
                           <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">
                               <div className="blog-details-thumb">
-                                <img src="/assets/images/resource/congestion_res_4.png" alt=""/>
+                                <img src="assets/images/resource/congestion_res_4.png" alt=""/>
                               </div>
                             </div>
                           </div>

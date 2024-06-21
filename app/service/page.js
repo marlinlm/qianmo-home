@@ -10,7 +10,7 @@ import Link from "next/link";
 import Contact from "@/components/Contact";
 const page = () => {
   return (
-    <ThrownLayout header={2} subheader={250} background={"/assets/images/resource/traffic_bg_2.png"}>
+    <ThrownLayout header={2} subheader={250} background={"assets/images/resource/traffic_bg_2.png"}>
       <PageBanner pageName={"智慧交通解决方案"}  />
       <SubHeader/>
       <div className="blog-standard-area">

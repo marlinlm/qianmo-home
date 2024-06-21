@@ -15,7 +15,7 @@ const page = () => {
                   {/* start blog details single box */}
                   <div className="blog-details-box">
                     <div className="blog-details-thumb">
-                      <img src="/assets/images/resource/eta_res_1.png" alt="" />
+                      <img src="assets/images/resource/eta_res_1.png" alt="" />
                       {/* <div className="blog-single-video">
                         <div className="blog-video-icon">
                           <a
@@ -95,7 +95,7 @@ const page = () => {
                   
                   <div className="col-lg-5 col-md-12">
                     <div className="blog-details-thumb">
-                      <img src="/assets/images/resource/eta_res_3.png" alt=""/>
+                      <img src="assets/images/resource/eta_res_3.png" alt=""/>
                       <h4>iETA模型架构</h4>
                     </div>
                   </div>
@@ -105,7 +105,7 @@ const page = () => {
                   </div>
                   <div className="col-lg-5 col-md-12">
                     <div className="blog-details-thumb">
-                      <img src="/assets/images/resource/eta_res_2.png" alt=""/>
+                      <img src="assets/images/resource/eta_res_2.png" alt=""/>
                       <h4>ProbETA模型架构</h4>
                     </div>
                   </div>
@@ -160,7 +160,7 @@ const page = () => {
                         <div className="row align-items-center">
                           <div className="col-lg-12 col-md-12">
                             <div className="blog-details-thumb">
-                              <img src="/assets/images/resource/eta_res_perf_1.png" alt=""/>
+                              <img src="assets/images/resource/eta_res_perf_1.png" alt=""/>
                             </div>
                           </div>
                         </div>
@@ -170,7 +170,7 @@ const page = () => {
                         <div className="row align-items-center">
                           <div className="col-lg-12 col-md-12">
                             <div className="blog-details-thumb">
-                              <img src="/assets/images/resource/eta_res_perf_2.png" alt=""/>
+                              <img src="assets/images/resource/eta_res_perf_2.png" alt=""/>
                             </div>
                           </div>
                         </div>
@@ -180,7 +180,7 @@ const page = () => {
                         <div className="row align-items-center">
                           <div className="col-lg-12 col-md-12">
                             <div className="blog-details-thumb">
-                              <img src="/assets/images/resource/eta_res_perf_3.png" alt=""/>
+                              <img src="assets/images/resource/eta_res_perf_3.png" alt=""/>
                             </div>
                           </div>
                         </div>
