@@ -47,7 +47,7 @@ const page = () => {
 
                   <div className="blog-title style-two">
                     <h4>
-                      <Link legacyBehavior href="/demo/llmlight">
+                      <Link legacyBehavior href="demo/llmlight">
                         交通信号控制大模型智能体LLMLight
                       </Link>
                     </h4>
@@ -67,13 +67,13 @@ const page = () => {
 
                   <div className="blog-title style-two">
                     <h4>
-                      <Link legacyBehavior href="/demo/eta">
+                      <Link legacyBehavior href="demo/eta">
                       ETA模型
                       </Link>
                     </h4>
                   </div>
                   <div className="blog-btn style-two">
-                    <a href="/demo/eta">
+                    <a href="demo/eta">
                       详情 <i className="bi bi-arrow-right" />
                     </a>
                   </div>
@@ -101,13 +101,13 @@ const page = () => {
                   </div>
                   <div className="blog-title style-two">
                     <h4>
-                      <Link legacyBehavior href="/demo/congestion">
+                      <Link legacyBehavior href="demo/congestion">
                       城市拥堵预测的可解释级联混合专家模型
                       </Link>
                     </h4>
                   </div>
                   <div className="blog-btn style-two">
-                    <a href="/demo/congestion">
+                    <a href="demo/congestion">
                       详情 <i className="bi bi-arrow-right" />
                     </a>
                   </div>
@@ -121,13 +121,13 @@ const page = () => {
 
                   <div className="blog-title style-two">
                     <h4>
-                      <Link legacyBehavior href="/demo/travel-recommendation">
+                      <Link legacyBehavior href="demo/travel-recommendation">
                       多模态出行推荐模型
                       </Link>
                     </h4>
                   </div>
                   <div className="blog-btn style-two">
-                    <a href="/demo/eta">
+                    <a href="demo/eta">
                       详情 <i className="bi bi-arrow-right" />
                     </a>
                   </div>

@@ -33,7 +33,7 @@ const page = () => {
                     <h1>AND SOLUTIONS TO ENTERPRISE</h1>
                   </div>
                   <div className="thrown-btn slider three">
-                    <Link legacyBehavior href="/contact-us">
+                    <Link legacyBehavior href="contact-us">
                       <a className="header-button">
                         Read More <span />
                       </a>
@@ -60,7 +60,7 @@ const page = () => {
                     <h1>Success Future</h1>
                   </div>
                   <div className="thrown-btn slider three">
-                    <Link legacyBehavior href="/contact-us">
+                    <Link legacyBehavior href="contact-us">
                       <a className="header-button">
                         Read More <span />
                       </a>
@@ -449,7 +449,7 @@ const page = () => {
                     />
                   </div>
                   <div className="thrown-btn service">
-                    <Link legacyBehavior href="/contact-us">
+                    <Link legacyBehavior href="contact-us">
                       <a className="header-button">
                         Learn More <span />
                       </a>

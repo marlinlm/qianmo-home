@@ -14,7 +14,7 @@ const PageBanner = ({ pageName }) => {
               <div className="bratcome-text">
                 {/* <ul>
                   <li>
-                    <Link legacyBehavior href="/">
+                    <Link legacyBehavior href="">
                       Home
                     </Link>
                   </li>{" "}

@@ -54,7 +54,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="thrown-btn pircing">
-                  <Link legacyBehavior href="/contact-us">
+                  <Link legacyBehavior href="contact-us">
                     <a className="header-button">
                       Purchase Now <span />
                     </a>
@@ -95,7 +95,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="thrown-btn pircing">
-                  <Link legacyBehavior href="/contact-us">
+                  <Link legacyBehavior href="contact-us">
                     <a className="header-button">
                       Purchase Now <span />
                     </a>
@@ -136,7 +136,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="thrown-btn pircing">
-                  <Link legacyBehavior href="/contact-us">
+                  <Link legacyBehavior href="contact-us">
                     <a className="header-button">
                       Purchase Now <span />
                     </a>

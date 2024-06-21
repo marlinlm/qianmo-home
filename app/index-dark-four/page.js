@@ -29,7 +29,7 @@ const page = () => {
                   <h1>Success Future</h1>
                 </div>
                 <div className="thrown-btn slider">
-                  <Link legacyBehavior href="/contact-us">
+                  <Link legacyBehavior href="contact-us">
                     <a className="header-button">
                       Get A Quout <span />
                     </a>

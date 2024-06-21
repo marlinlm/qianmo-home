@@ -25,7 +25,7 @@ const Sidebar = () => {
             <div className="sidebar-info-contents">
               <div className="content-inner">
                 <div className="sidebar-logo">
-                  <Link legacyBehavior href="/">
+                  <Link legacyBehavior href="index">
                     <a>
                       <img src="assets/images/logo.png" alt="logo" />
                     </a>
@@ -54,14 +54,14 @@ const Sidebar = () => {
                                 alt="image"
                               />
                               <div className="home-btn">
-                                <Link legacyBehavior href="/">
+                                <Link legacyBehavior href="index">
                                   <a className="menu-btn">View Demo</a>
                                 </Link>
                               </div>
                             </div>
                             <div className="home-menu-title">
                               <h4>
-                                <Link legacyBehavior href="/">
+                                <Link legacyBehavior href="index">
                                   <a>Home One</a>
                                 </Link>
                               </h4>
@@ -74,14 +74,14 @@ const Sidebar = () => {
                                 alt="image"
                               />
                               <div className="home-btn">
-                                <Link legacyBehavior href="/index-two">
+                                <Link legacyBehavior href="index-two">
                                   <a className="menu-btn">View Demo</a>
                                 </Link>
                               </div>
                             </div>
                             <div className="home-menu-title">
                               <h4>
-                                <Link legacyBehavior href="/index-two">
+                                <Link legacyBehavior href="index-two">
                                   <a>Home Two</a>
                                 </Link>
                               </h4>
@@ -94,14 +94,14 @@ const Sidebar = () => {
                                 alt="image"
                               />
                               <div className="home-btn">
-                                <Link legacyBehavior href="/index-three">
+                                <Link legacyBehavior href="index-three">
                                   <a className="menu-btn">View Demo</a>
                                 </Link>
                               </div>
                             </div>
                             <div className="home-menu-title">
                               <h4>
-                                <Link legacyBehavior href="/index-three">
+                                <Link legacyBehavior href="index-three">
                                   <a>Home Three</a>
                                 </Link>
                               </h4>
@@ -114,14 +114,14 @@ const Sidebar = () => {
                                 alt="image"
                               />
                               <div className="home-btn">
-                                <Link legacyBehavior href="/index-four">
+                                <Link legacyBehavior href="index-four">
                                   <a className="menu-btn">View Demo</a>
                                 </Link>
                               </div>
                             </div>
                             <div className="home-menu-title">
                               <h4>
-                                <Link legacyBehavior href="/index-four">
+                                <Link legacyBehavior href="index-four">
                                   <a>Home Four</a>
                                 </Link>
                               </h4>
@@ -134,14 +134,14 @@ const Sidebar = () => {
                                 alt="image"
                               />
                               <div className="home-btn">
-                                <Link legacyBehavior href="/index-five">
+                                <Link legacyBehavior href="index-five">
                                   <a className="menu-btn">View Demo</a>
                                 </Link>
                               </div>
                             </div>
                             <div className="home-menu-title">
                               <h4>
-                                <Link legacyBehavior href="/index-five">
+                                <Link legacyBehavior href="index-five">
                                   <a>Home Five</a>
                                 </Link>
                               </h4>
@@ -154,14 +154,14 @@ const Sidebar = () => {
                                 alt="image"
                               />
                               <div className="home-btn">
-                                <Link legacyBehavior href="/index-dark-one">
+                                <Link legacyBehavior href="index-dark-one">
                                   <a className="menu-btn">View Demo</a>
                                 </Link>
                               </div>
                             </div>
                             <div className="home-menu-title">
                               <h4>
-                                <Link legacyBehavior href="/index-dark-one">
+                                <Link legacyBehavior href="index-dark-one">
                                   <a>Home Six</a>
                                 </Link>
                               </h4>
@@ -174,14 +174,14 @@ const Sidebar = () => {
                                 alt="image"
                               />
                               <div className="home-btn">
-                                <Link legacyBehavior href="/index-dark-two">
+                                <Link legacyBehavior href="index-dark-two">
                                   <a className="menu-btn">View Demo</a>
                                 </Link>
                               </div>
                             </div>
                             <div className="home-menu-title">
                               <h4>
-                                <Link legacyBehavior href="/index-dark-two">
+                                <Link legacyBehavior href="index-dark-two">
                                   <a>Home Seven</a>
                                 </Link>
                               </h4>
@@ -194,14 +194,14 @@ const Sidebar = () => {
                                 alt="image"
                               />
                               <div className="home-btn">
-                                <Link legacyBehavior href="/index-dark-three">
+                                <Link legacyBehavior href="index-dark-three">
                                   <a className="menu-btn">View Demo</a>
                                 </Link>
                               </div>
                             </div>
                             <div className="home-menu-title">
                               <h4>
-                                <Link legacyBehavior href="/index-dark-three">
+                                <Link legacyBehavior href="index-dark-three">
                                   <a>Home Eight</a>
                                 </Link>
                               </h4>
@@ -214,14 +214,14 @@ const Sidebar = () => {
                                 alt="image"
                               />
                               <div className="home-btn">
-                                <Link legacyBehavior href="/index-dark-four">
+                                <Link legacyBehavior href="index-dark-four">
                                   <a className="menu-btn">View Demo</a>
                                 </Link>
                               </div>
                             </div>
                             <div className="home-menu-title">
                               <h4>
-                                <Link legacyBehavior href="/index-dark-four">
+                                <Link legacyBehavior href="index-dark-four">
                                   <a>Home Nine</a>
                                 </Link>
                               </h4>
@@ -234,14 +234,14 @@ const Sidebar = () => {
                                 alt="image"
                               />
                               <div className="home-btn">
-                                <Link legacyBehavior href="/index-dark-five">
+                                <Link legacyBehavior href="index-dark-five">
                                   <a className="menu-btn">View Demo</a>
                                 </Link>
                               </div>
                             </div>
                             <div className="home-menu-title">
                               <h4>
-                                <Link legacyBehavior href="/index-dark-five">
+                                <Link legacyBehavior href="index-dark-five">
                                   <a>Home Ten</a>
                                 </Link>
                               </h4>
@@ -251,7 +251,7 @@ const Sidebar = () => {
                       </div>
                     </li>
                     <li className="dropdown">
-                      <Link legacyBehavior href="/about">
+                      <Link legacyBehavior href="about">
                         <a data-toggle="dropdown">About</a>
                       </Link>
                     </li>
@@ -366,7 +366,7 @@ const Sidebar = () => {
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <Link legacyBehavior href="/contact-us">
+                      <Link legacyBehavior href="contact-us">
                         <a data-toggle="dropdown">Contact</a>
                       </Link>
                     </li>

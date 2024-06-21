@@ -44,7 +44,7 @@ const page = () => {
                     </p>
                   </div>
                   <div className="thrown-btn slider">
-                    <Link legacyBehavior href="/contact-us">
+                    <Link legacyBehavior href="contact-us">
                       <a className="header-button">
                         Get A Quout <span />
                       </a>
@@ -191,7 +191,7 @@ const page = () => {
                   <h2>Feel Free To Contact Us For Additional Info</h2>
                 </div>
                 <div className="thrown-btn contact-us">
-                  <Link legacyBehavior href="/contact-us">
+                  <Link legacyBehavior href="contact-us">
                     <a className="header-button">
                       Contact Us <span />
                     </a>
@@ -206,7 +206,7 @@ const page = () => {
                   <h2>Feel Free To Contact Us For Additional Info</h2>
                 </div>
                 <div className="thrown-btn contact-us2">
-                  <Link legacyBehavior href="/contact-us">
+                  <Link legacyBehavior href="contact-us">
                     <a className="header-button">
                       Get Started <span />
                     </a>

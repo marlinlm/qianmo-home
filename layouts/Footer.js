@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="col-lg-3 col-md-3">
             <div className="footer-wiget">
               <div className="footer-wiget-log">
-                <Link legacyBehavior href="/">
+                <Link legacyBehavior href="index">
                   <a>
                     <img src="assets/images/logo-white_bg.png" alt="" />
                   </a>

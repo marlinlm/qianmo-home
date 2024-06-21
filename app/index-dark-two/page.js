@@ -27,7 +27,7 @@ const Index2 = () => {
                         <h1>Success Future</h1>
                       </div>
                       <div className="thrown-btn slider2">
-                        <Link legacyBehavior href="/contact-us">
+                        <Link legacyBehavior href="contact-us">
                           <a className="header-button">
                             Read More
                             <span />
@@ -58,7 +58,7 @@ const Index2 = () => {
                         <h1>Consulting Services</h1>
                       </div>
                       <div className="thrown-btn slider2">
-                        <Link legacyBehavior href="/contact-us">
+                        <Link legacyBehavior href="contact-us">
                           <a className="header-button">
                             Read More
                             <span />
@@ -220,7 +220,7 @@ const Index2 = () => {
                   </p>
                 </div>
                 <div className="thrown-btn contact">
-                  <Link legacyBehavior href="/contact-us">
+                  <Link legacyBehavior href="contact-us">
                     <a className="header-button">
                       Contact Us{" "}
                       <span style={{ top: "197.658px", left: "152.499px" }} />
@@ -658,7 +658,7 @@ const Index2 = () => {
                   </div>
                 </div>
                 <div className="thrown-btn pircing">
-                  <Link legacyBehavior href="/contact-us">
+                  <Link legacyBehavior href="contact-us">
                     <a className="header-button">
                       Purchase Now <span />
                     </a>
@@ -699,7 +699,7 @@ const Index2 = () => {
                   </div>
                 </div>
                 <div className="thrown-btn pircing">
-                  <Link legacyBehavior href="/contact-us">
+                  <Link legacyBehavior href="contact-us">
                     <a className="header-button">
                       Purchase Now <span />
                     </a>
@@ -740,7 +740,7 @@ const Index2 = () => {
                   </div>
                 </div>
                 <div className="thrown-btn pircing">
-                  <Link legacyBehavior href="/contact-us">
+                  <Link legacyBehavior href="contact-us">
                     <a className="header-button">
                       Purchase Now <span />
                     </a>

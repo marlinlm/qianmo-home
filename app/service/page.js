@@ -231,7 +231,7 @@ const page = () => {
                   <div className="row">
                     <h5 className="col-lg-1">产品:</h5>
                     <div className="project-btn col-lg-2">
-                      <a href="/demo/llmlight">
+                      <a href="demo/llmlight">
                         LLMLight{" "}
                         <i className="bi bi-arrow-up-right-circle-fill" />
                       </a>
@@ -270,7 +270,7 @@ const page = () => {
                   <div className="row">
                     <h5 className="col-lg-1">产品:</h5>
                     <div className="project-btn col-lg-3">
-                      <a href="/demo/congestion">
+                      <a href="demo/congestion">
                       CP-MoE{" "}
                         <i className="bi bi-arrow-up-right-circle-fill" />
                       </a>
@@ -314,13 +314,13 @@ const page = () => {
                   <div className="row">
                     <h5 className="col-lg-1">产品:</h5>
                     <div className="project-btn col-lg-2">
-                      <a href="/demo/travel-recommendation">
+                      <a href="demo/travel-recommendation">
                       Trans2vec{" "}
                         <i className="bi bi-arrow-up-right-circle-fill" />
                       </a>
                     </div>
                     <div className="project-btn col-lg-2">
-                      <a href="/demo/travel-recommendation">
+                      <a href="demo/travel-recommendation">
                       Hydra{" "}
                         <i className="bi bi-arrow-up-right-circle-fill" />
                       </a>
@@ -357,13 +357,13 @@ const page = () => {
                   <div className="row">
                     <h5 className="col-lg-1">产品:</h5>
                     <div className="project-btn col-lg-2">
-                      <a href="/demo/eta">
+                      <a href="demo/eta">
                       iETA{" "}
                         <i className="bi bi-arrow-up-right-circle-fill" />
                       </a>
                     </div>
                     <div className="project-btn col-lg-2 ">
-                      <a href="/demo/eta">
+                      <a href="demo/eta">
                       ProbETA{" "}
                         <i className="bi bi-arrow-up-right-circle-fill" />
                       </a>

@@ -22,7 +22,7 @@ const page = () => {
                             className="video-vemo-icon venobox vbox-item"
                             data-vbtype="video"
                             data-autoplay="true"
-                            href="/assets/vedio/llmlight.mp4"
+                            href="assets/vedio/llmlight.mp4"
                           >
                             <i className="bi bi-play" />
                           </a>

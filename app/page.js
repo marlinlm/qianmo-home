@@ -29,7 +29,7 @@ const Index2 = () => {
                         <h1>阡陌智能，交通未来</h1>
                       </div>
                       <div className="thrown-btn slider2">
-                        <Link legacyBehavior href="/contact-us">
+                        <Link legacyBehavior href="service">
                           <a className="header-button">
                             详情
                             <span />
@@ -81,7 +81,7 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="/demo/llmlight">
+                    <Link legacyBehavior href="demo/llmlight">
                       LLMLight
                     </Link>
                   </h4>
@@ -114,7 +114,7 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="/demo/eta">
+                    <Link legacyBehavior href="demo/eta">
                     iETA
                     </Link>
                   </h4>
@@ -147,7 +147,7 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="/demo/eta">
+                    <Link legacyBehavior href="demo/eta">
                     ProbETA
                     </Link>
                   </h4>
@@ -182,7 +182,7 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="/demo/eta">
+                    <Link legacyBehavior href="demo/eta">
                     CP-MoE
                     </Link>
                   </h4>
@@ -215,7 +215,7 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="/demo/eta">
+                    <Link legacyBehavior href="demo/eta">
                     CP-MoE
                     </Link>
                   </h4>
@@ -265,7 +265,7 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="/service#solution1">
+                    <Link legacyBehavior href="service#solution1">
                       智慧交管
                     </Link>
                   </h4>
@@ -295,7 +295,7 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="/service#solution2">
+                    <Link legacyBehavior href="service#solution2">
                       智慧出行
                     </Link>
                   </h4>
@@ -325,7 +325,7 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="/big-data">
+                    <Link legacyBehavior href="big-data">
                     城市大数据分析
                     </Link>
                   </h4>
@@ -499,7 +499,7 @@ const Index2 = () => {
               </div> */}
             </div>
             <div className="thrown-btn contact" >
-                  <Link legacyBehavior href="/demo">
+                  <Link legacyBehavior href="demo">
                     <a className="header-button">
                       研究成果演示
                       <span style={{ top: "197.658px", left: "152.499px" }} />
@@ -563,7 +563,7 @@ const Index2 = () => {
                   <p>你知道大模型除了写诗画画之外还能做什么吗？我们希望大模型可以真正服务人类，而不是代替人类。现在跟我们联系，了解怎样让大模型做大模型该做的事，把有趣的事留给它们的创造者。</p>
                 </div>
                 {/* <div className="thrown-btn contact">
-                  <Link legacyBehavior href="/contact-us">
+                  <Link legacyBehavior href="contact-us">
                     <a className="header-button">
                       联系我们{" "}
                       <span style={{ top: "197.658px", left: "152.499px" }} />
