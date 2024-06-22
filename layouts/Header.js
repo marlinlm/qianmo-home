@@ -369,7 +369,7 @@ const Nav = () => {
     <ul>
       <li>
         {/* <a href="#"> */}
-        <Link legacyBehavior href="/">
+        <Link legacyBehavior href={Path("#")}>
           <a>
             首页 {/* Home <i className="fas fa-chevron-down" /> */}
           </a>
@@ -377,7 +377,7 @@ const Nav = () => {
       </li>
 
       <li>
-        <a href="/#service">
+        <a href={Path("#service")}>
           产品和服务 
           {/* <i className="fas fa-chevron-down" /> */}
         </a>
@@ -398,7 +398,7 @@ const Nav = () => {
       </li>
 
       <li>
-        <a href="/#academic">
+        <a href={Path("#academic")}>
           学术 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
@@ -409,22 +409,22 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="pattern">
+              <Link legacyBehavior href={Path("#pattern")}>
                 专利
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="opensource">
+              <Link legacyBehavior href={Path("#open")}>
                 开源项目
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="talks">
+              <Link legacyBehavior href={Path("#talk")}>
                 公开演讲
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="demo">
+              <Link legacyBehavior href={Path("demo")}>
                 成果演示
               </Link>
             </li>
@@ -434,23 +434,23 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link legacyBehavior href="cases">
+        <Link legacyBehavior href={Path("case")}>
           成功案例 
         </Link>
       </li>
       <li>
-        <a href="/#about">
+        <a href={Path("#about")}>
           关于 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
           <ul>
             <li>
-              <Link legacyBehavior href="/#about">
+              <Link legacyBehavior href={Path("#about")}>
                 关于阡陌
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="/#offer">
+              <Link legacyBehavior href={Path("#offer")}>
                 招聘
               </Link>
             </li>
