@@ -182,7 +182,7 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="demo/eta">
+                    <Link legacyBehavior href="demo/congestion">
                     CP-MoE
                     </Link>
                   </h4>
@@ -215,16 +215,49 @@ const Index2 = () => {
                 </div>
                 <div className="service-items-title">
                   <h4>
-                    <Link legacyBehavior href="demo/eta">
-                    CP-MoE
+                    <Link legacyBehavior href="demo/travel-recommendation">
+                    Trans2vec
                     </Link>
                   </h4>
                   <p></p>
-                  <p>拥堵预测智能体</p>
+                  <p>出行推荐智能体</p>
                 </div>
                 <div className="service-items-content-two">
                   <p>
-                  城市拥堵预测的可解释级联混合专家模型
+                  基于图嵌入的多模态出行推荐模型。{"    "}
+                  </p>
+                </div>
+                <div className="service-items-icon-two">
+                  <i className="bi bi-arrow-right" />
+                </div>
+                <div className="service-items-thumb-two">
+                  {/* <img src="assets/images/service/service4.png" alt="image" /> */}
+                </div>
+              </div>
+              {/* End service items box */}
+            </div>
+
+            <div className="col-md-6 col-xl-3">
+              {/* start service items box */}
+              <div className="service-items-box-two">
+                <div className="service-icon-thumb">
+                  <img
+                    src="assets/images/service/service-style4.png"
+                    alt="image"
+                  />
+                </div>
+                <div className="service-items-title">
+                  <h4>
+                    <Link legacyBehavior href="demo/travel-recommendation">
+                    Hydra
+                    </Link>
+                  </h4>
+                  <p></p>
+                  <p>出行推荐智能体</p>
+                </div>
+                <div className="service-items-content-two">
+                  <p>
+                  个性化和情境感知的多模态出行引擎。
                   </p>
                 </div>
                 <div className="service-items-icon-two">
@@ -248,7 +281,11 @@ const Index2 = () => {
                   <h4>大模型+交通，下一代智慧交通解决方案</h4>
                 </div>
                 <div className="section-main-title">
-                  <h2>服务</h2>
+                  <h2>
+                    <a href="service">
+                      解决方案
+                    </a>
+                  </h2>
                 </div>
               </div>
             </div>

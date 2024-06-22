@@ -17,14 +17,14 @@ const page = () => {
 
 
                     <div className="blog-details-thumb">
-                      <img src="assets/images/resource/llmlight_orig.png" alt="" />
+                      <img src="../assets/images/resource/llmlight_orig.png" alt="" />
                       <div className="blog-single-video">
                         <div className="blog-video-icon">
                           <a
                             className="video-vemo-icon venobox vbox-item"
                             data-vbtype="video"
                             data-autoplay="true"
-                            href="assets/vedio/llmlight.mp4"
+                            href="../assets/vedio/llmlight.mp4"
                           >
                             <i className="bi bi-play" />
                           </a>
@@ -87,7 +87,7 @@ const page = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-12 col-md-12">
                     <div className="blog-details-thumb">
-                      <img src="assets/images/resource/llmlight_res1.png" alt=""/>
+                      <img src="../assets/images/resource/llmlight_res1.png" alt=""/>
                       <h4>LLMLight 模型架构</h4>
                     </div>
                   </div>

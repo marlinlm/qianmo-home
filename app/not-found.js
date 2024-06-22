@@ -14,7 +14,7 @@ const NotFound = () => {
               </div>
               <div className="thrown-btn error text-center">
                 <h1>因为网站还在建设中。。。</h1>
-                <Link legacyBehavior href="index">
+                <Link legacyBehavior href="/">
                   <a className="header-button">
                     回到首页 <span />
                   </a>

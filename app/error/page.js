@@ -13,7 +13,7 @@ const page = () => {
                 <img src="assets/images/resource/error.svg" alt="image" />
               </div>
               <div className="thrown-btn error text-center">
-                <Link legacyBehavior href="index">
+                <Link legacyBehavior href="/">
                   <a className="header-button">
                     回到首页 <span />
                   </a>

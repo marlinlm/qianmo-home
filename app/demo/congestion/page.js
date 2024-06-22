@@ -161,7 +161,7 @@ const page = () => {
                           <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">
                               <div className="blog-details-thumb">
-                                <img src="assets/images/resource/congestion_res_4.png" alt=""/>
+                                <img src="../assets/images/resource/congestion_res_4.png" alt=""/>
                               </div>
                             </div>
                           </div>

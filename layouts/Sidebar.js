@@ -25,7 +25,7 @@ const Sidebar = () => {
             <div className="sidebar-info-contents">
               <div className="content-inner">
                 <div className="sidebar-logo">
-                  <Link legacyBehavior href="index">
+                  <Link legacyBehavior href="/">
                     <a>
                       <img src="assets/images/logo.png" alt="logo" />
                     </a>
@@ -54,14 +54,14 @@ const Sidebar = () => {
                                 alt="image"
                               />
                               <div className="home-btn">
-                                <Link legacyBehavior href="index">
+                                <Link legacyBehavior href="/">
                                   <a className="menu-btn">View Demo</a>
                                 </Link>
                               </div>
                             </div>
                             <div className="home-menu-title">
                               <h4>
-                                <Link legacyBehavior href="index">
+                                <Link legacyBehavior href="/">
                                   <a>Home One</a>
                                 </Link>
                               </h4>

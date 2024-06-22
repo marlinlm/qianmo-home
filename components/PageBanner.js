@@ -9,7 +9,6 @@ const PageBanner = ({ pageName }) => {
             <div className="breatcome-content">
               <div className="breatcome-title">
                 <h1>{pageName}</h1>
-
               </div>
               <div className="bratcome-text">
                 {/* <ul>

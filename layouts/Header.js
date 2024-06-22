@@ -41,7 +41,7 @@ const Header1 = ({ dark }) => {
           <div className="row align-items-center">
             <div className="col-lg-2 col-md-6">
               <div className={`header-logo ${dark ? "dark" : ""}`}>
-                <Link legacyBehavior href="index">
+                <Link legacyBehavior href="/">
                   <a>
                     <img src="assets/images/logo-white_bg.png" alt="" />
                   </a>
@@ -79,11 +79,10 @@ const Header2 = ({ dark }) => {
         <div className="row align-items-center">
           <div className="col-lg-1 align-items-center"></div>
           <div className="col-lg-2 align-items-center">
-            
             <div className="header-logo style-two">
-              <Link legacyBehavior href="index">
+              <Link legacyBehavior href="/">
                 <a>
-                  <img src="assets/images/logo-white_bg.png" alt="logo" height="40px"/>
+                  <img src="../assets/images/logo-white_bg.png" alt="logo" height="40px"/>
                 </a>
               </Link>
             </div>
@@ -124,7 +123,7 @@ const Header3 = ({ dark }) => {
         <div className="row align-items-center">
           <div className="col-lg-3">
             <div className="header-logo style-three">
-              <Link legacyBehavior href="index">
+              <Link legacyBehavior href="/">
                 <a>
                   <img
                     src={
@@ -171,7 +170,7 @@ const Header4 = ({ dark }) => {
           <div className="row align-items-center">
             <div className="col-lg-3">
               <div className="header-logo style-five">
-                <Link legacyBehavior href="index">
+                <Link legacyBehavior href="/">
                   <a>
                     <img
                       src={
@@ -302,7 +301,7 @@ const MobileMenu = () => {
     <div className="mobile-menu-area" id="navbar">
       <div className="mobile-menu">
         <div className="mobile-logo">
-          <Link legacyBehavior href="index">
+          <Link legacyBehavior href="/">
             <a>
               <img src="assets/images/logo-white_bg.png" alt="image" />
             </a>
@@ -364,7 +363,7 @@ const Nav = () => {
     <ul>
       <li>
         {/* <a href="#"> */}
-        <Link legacyBehavior href="index">
+        <Link legacyBehavior href="../">
           <a>
             首页 {/* Home <i className="fas fa-chevron-down" /> */}
           </a>
@@ -372,10 +371,11 @@ const Nav = () => {
       </li>
 
       <li>
-        <a href="index#service">
-          服务 <i className="fas fa-chevron-down" />
+        <a href="../#service">
+          产品和服务 
+          {/* <i className="fas fa-chevron-down" /> */}
         </a>
-        <div className="sub-menu">
+        {/* <div className="sub-menu">
           <ul>
             <li>
               <Link legacyBehavior href="service#solution1">
@@ -387,17 +387,12 @@ const Nav = () => {
                 智慧出行解决方案
               </Link>
             </li>
-            {/* <li>
-              <Link legacyBehavior href="report">
-                大数据报告
-              </Link>
-            </li> */}
           </ul>
-        </div>
+        </div> */}
       </li>
 
       <li>
-        <a href="index#academic">
+        <a href="../#academic">
           学术 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
@@ -438,18 +433,18 @@ const Nav = () => {
         </Link>
       </li>
       <li>
-        <a href="index#about">
+        <a href="../#about">
           关于 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
           <ul>
             <li>
-              <Link legacyBehavior href="index#about">
+              <Link legacyBehavior href="../#about">
                 关于阡陌
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="index#offer">
+              <Link legacyBehavior href="../#offer">
                 招聘
               </Link>
             </li>
@@ -482,7 +477,7 @@ const SearchBtn = ({ btnStyle }) => {
         </ul>
       </div> */}
       <div className="thrown-btn style-five">
-        <Link legacyBehavior href="index#contact">
+        <Link legacyBehavior href="/#contact">
           <a className="header-button">
             联系我们 <span />
           </a>
