@@ -1,5 +1,6 @@
 import Link from "next/link";
 import BrandSlider from "@/components/BrandSlider";
+import Path from "./Path";
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
           <div className="col-lg-3 col-md-3">
             <div className="footer-wiget">
               <div className="footer-wiget-log">
-                <Link legacyBehavior href="/">
+                <Link legacyBehavior href={Path("/")}>
                   <a>
-                    <img src="../assets/images/logo-white_bg.png" alt="" />
+                    <img src={Path("assets/images/logo-white_bg.png")}  alt="" />
                   </a>
                 </Link>
               </div>

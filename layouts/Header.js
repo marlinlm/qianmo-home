@@ -2,6 +2,8 @@ import { thrownutility } from "@/utility";
 import Link from "next/link";
 import { Fragment } from "react";
 import Sidebar from "./Sidebar";
+import Path from "./Path";
+
 const Header = ({ headers, dark }) => {
   const getHeader = () => {
     switch (headers) {
@@ -41,10 +43,14 @@ const Header1 = ({ dark }) => {
           <div className="row align-items-center">
             <div className="col-lg-2 col-md-6">
               <div className={`header-logo ${dark ? "dark" : ""}`}>
-                <Link legacyBehavior href="/">
-                  <a>
-                    <img src="assets/images/logo-white_bg.png" alt="" />
-                  </a>
+
+                <Link legacyBehavior href={Path("/")}>
+                <p>
+                {Path("/assets/images/logo-white_bg.png")}
+                </p>
+                  {/* <a>
+                    <img src={Path("/assets/images/logo-white_bg.png")} alt="" />
+                  </a> */}
                 </Link>
               </div>
             </div>
@@ -82,7 +88,7 @@ const Header2 = ({ dark }) => {
             <div className="header-logo style-two">
               <Link legacyBehavior href="/">
                 <a>
-                  <img src="../assets/images/logo-white_bg.png" alt="logo" height="40px"/>
+                  <img src={Path("assets/images/logo-white_bg.png")} alt="logo" height="40px"/>
                 </a>
               </Link>
             </div>
@@ -363,7 +369,7 @@ const Nav = () => {
     <ul>
       <li>
         {/* <a href="#"> */}
-        <Link legacyBehavior href="../">
+        <Link legacyBehavior href="/">
           <a>
             首页 {/* Home <i className="fas fa-chevron-down" /> */}
           </a>
@@ -371,7 +377,7 @@ const Nav = () => {
       </li>
 
       <li>
-        <a href="../#service">
+        <a href="/#service">
           产品和服务 
           {/* <i className="fas fa-chevron-down" /> */}
         </a>
@@ -392,7 +398,7 @@ const Nav = () => {
       </li>
 
       <li>
-        <a href="../#academic">
+        <a href="/#academic">
           学术 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
@@ -433,18 +439,18 @@ const Nav = () => {
         </Link>
       </li>
       <li>
-        <a href="../#about">
+        <a href="/#about">
           关于 <i className="fas fa-chevron-down" />
         </a>
         <div className="sub-menu">
           <ul>
             <li>
-              <Link legacyBehavior href="../#about">
+              <Link legacyBehavior href="/#about">
                 关于阡陌
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="../#offer">
+              <Link legacyBehavior href="/#offer">
                 招聘
               </Link>
             </li>
