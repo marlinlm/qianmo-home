@@ -369,13 +369,13 @@ const Nav = () => {
     <ul>
       <li>
         {/* <a href="#"> */}
-        <Link href="#">
+        <Link href="/#">
           首页 {/* Home <i className="fas fa-chevron-down" /> */}
         </Link>
       </li>
 
       <li>
-        <Link href="#service">
+        <Link href="/#service">
           产品和服务 
           {/* <i className="fas fa-chevron-down" /> */}
         </Link>
@@ -396,7 +396,7 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link href="#academic">
+        <Link href="/#academic">
           学术 <i className="fas fa-chevron-down" />
         </Link>
         <div className="sub-menu">
@@ -407,22 +407,22 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link href="#pattern">
+              <Link href="/#pattern">
                 专利
               </Link>
             </li>
             <li>
-              <Link href="#open">
+              <Link href="/#open">
                 开源项目
               </Link>
             </li>
             <li>
-              <Link href="#talk">
+              <Link href="/#talk">
                 公开演讲
               </Link>
             </li>
             <li>
-              <Link href="demo">
+              <Link href="/demo">
                 成果演示
               </Link>
             </li>
@@ -432,23 +432,23 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link href="case">
+        <Link href="/case">
           成功案例 
         </Link>
       </li>
       <li>
-        <Link href="#about">
+        <Link href="/#about">
           关于 <i className="fas fa-chevron-down" />
         </Link>
         <div className="sub-menu">
           <ul>
             <li>
-              <Link href="#about">
+              <Link href="/#about">
                 关于阡陌
               </Link>
             </li>
             <li>
-              <Link href="#offer">
+              <Link href="/#offer">
                 招聘
               </Link>
             </li>
@@ -481,7 +481,7 @@ const SearchBtn = ({ btnStyle }) => {
         </ul>
       </div> */}
       <div className="thrown-btn style-five">
-        <Link href="#contact">
+        <Link href="/#contact">
           <a className="header-button">
             联系我们 <span />
           </a>
