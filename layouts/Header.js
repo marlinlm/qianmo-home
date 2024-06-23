@@ -369,18 +369,16 @@ const Nav = () => {
     <ul>
       <li>
         {/* <a href="#"> */}
-        <Link href={Path("#")}>
-          <a>
-            首页 {/* Home <i className="fas fa-chevron-down" /> */}
-          </a>
+        <Link href="#">
+          首页 {/* Home <i className="fas fa-chevron-down" /> */}
         </Link>
       </li>
 
       <li>
-        <a href={Path("#service")}>
+        <Link href="#service">
           产品和服务 
           {/* <i className="fas fa-chevron-down" /> */}
-        </a>
+        </Link>
         {/* <div className="sub-menu">
           <ul>
             <li>
@@ -398,9 +396,9 @@ const Nav = () => {
       </li>
 
       <li>
-        <a href={Path("#academic")}>
+        <Link href="#academic">
           学术 <i className="fas fa-chevron-down" />
-        </a>
+        </Link>
         <div className="sub-menu">
           <ul>
             <li>
@@ -409,22 +407,22 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link href={Path("#pattern")}>
+              <Link href="#pattern">
                 专利
               </Link>
             </li>
             <li>
-              <Link href={Path("#open")}>
+              <Link href="#open">
                 开源项目
               </Link>
             </li>
             <li>
-              <Link href={Path("#talk")}>
+              <Link href="#talk">
                 公开演讲
               </Link>
             </li>
             <li>
-              <Link href={Path("demo")}>
+              <Link href="demo">
                 成果演示
               </Link>
             </li>
@@ -434,23 +432,23 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link href={Path("case")}>
+        <Link href="case">
           成功案例 
         </Link>
       </li>
       <li>
-        <a href={Path("#about")}>
+        <Link href="#about">
           关于 <i className="fas fa-chevron-down" />
-        </a>
+        </Link>
         <div className="sub-menu">
           <ul>
             <li>
-              <Link href={Path("#about")}>
+              <Link href="#about">
                 关于阡陌
               </Link>
             </li>
             <li>
-              <Link href={Path("#offer")}>
+              <Link href="#offer">
                 招聘
               </Link>
             </li>
