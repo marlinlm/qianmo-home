@@ -396,9 +396,9 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link href={Path("#academic")}>
+        <a href={Path("#academic")}>
           学术 <i className="fas fa-chevron-down" />
-        </Link>
+        </a>
         <div className="sub-menu">
           <ul>
             <li>
