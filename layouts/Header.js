@@ -407,24 +407,24 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="/#pattern">
-                专利
-              </Link>
+              <a href="/#service">
+                专利(/#service)
+              </a>
             </li>
             <li>
-              <Link legacyBehavior href="/#open">
-                开源项目
-              </Link>
+              <a href="#service">
+                开源项目(#service)
+              </a>
             </li>
             <li>
-              <Link legacyBehavior href="/#talk">
-                公开演讲
-              </Link>
+              <a href={Path("#service")}>
+                公开演讲(path(#service))
+              </a>
             </li>
             <li>
-              <Link legacyBehavior href="/demo">
-                成果演示
-              </Link>
+              <a href={Path("/#service")}>
+                成果演示(path(/#service))
+              </a>
             </li>
 
           </ul>
