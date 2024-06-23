@@ -396,13 +396,13 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link legacyBehavior href="/#academic">
+        <Link href="/#academic">
           学术 <i className="fas fa-chevron-down" />
         </Link>
         <div className="sub-menu">
           <ul>
             <li>
-              <Link href="https://raymondhliu.github.io/publications/">
+              <Link legacyBehavior href="https://raymondhliu.github.io/publications/">
                 论文
               </Link>
             </li>
@@ -437,7 +437,7 @@ const Nav = () => {
         </Link>
       </li>
       <li>
-        <Link legacyBehavior href="/#about">
+        <Link href="/#about">
           关于 <i className="fas fa-chevron-down" />
         </Link>
         <div className="sub-menu">
