@@ -369,13 +369,13 @@ const Nav = () => {
     <ul>
       <li>
         {/* <a href="#"> */}
-        <Link legacyBehavior href="/#">
+        <Link href="#">
           首页 {/* Home <i className="fas fa-chevron-down" /> */}
         </Link>
       </li>
 
       <li>
-        <Link legacyBehavior href="/#service">
+        <Link href="#service">
           产品和服务 
           {/* <i className="fas fa-chevron-down" /> */}
         </Link>
