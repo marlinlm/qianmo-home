@@ -2,9 +2,9 @@ import nextConfig from "@/next.config.mjs";
 
 const Path = (realPath) => {
     const bp = () => {
-        // alert(realPath);
-        return "/" + nextConfig.basePath? nextConfig.basePath + "/" : ""
+        return "/" + nextConfig.basePath ? nextConfig.basePath + "/" : "" 
     };
+    // alert(bp()+ "+ " + realPath);
     return (
       bp() + realPath
     );

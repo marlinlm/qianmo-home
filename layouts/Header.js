@@ -369,7 +369,7 @@ const Nav = () => {
     <ul>
       <li>
         {/* <a href="#"> */}
-        <Link legacyBehavior href={Path("#")}>
+        <Link href={Path("#")}>
           <a>
             首页 {/* Home <i className="fas fa-chevron-down" /> */}
           </a>
@@ -404,27 +404,27 @@ const Nav = () => {
         <div className="sub-menu">
           <ul>
             <li>
-              <Link legacyBehavior href="https://raymondhliu.github.io/publications/">
+              <Link href="https://raymondhliu.github.io/publications/">
                 论文
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href={Path("#pattern")}>
+              <Link href={Path("#pattern")}>
                 专利
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href={Path("#open")}>
+              <Link href={Path("#open")}>
                 开源项目
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href={Path("#talk")}>
+              <Link href={Path("#talk")}>
                 公开演讲
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href={Path("demo")}>
+              <Link href={Path("demo")}>
                 成果演示
               </Link>
             </li>
@@ -434,7 +434,7 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link legacyBehavior href={Path("case")}>
+        <Link href={Path("case")}>
           成功案例 
         </Link>
       </li>
@@ -445,12 +445,12 @@ const Nav = () => {
         <div className="sub-menu">
           <ul>
             <li>
-              <Link legacyBehavior href={Path("#about")}>
+              <Link href={Path("#about")}>
                 关于阡陌
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href={Path("#offer")}>
+              <Link href={Path("#offer")}>
                 招聘
               </Link>
             </li>
@@ -483,7 +483,7 @@ const SearchBtn = ({ btnStyle }) => {
         </ul>
       </div> */}
       <div className="thrown-btn style-five">
-        <Link legacyBehavior href="/#contact">
+        <Link href="#contact">
           <a className="header-button">
             联系我们 <span />
           </a>
