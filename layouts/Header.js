@@ -369,16 +369,16 @@ const Nav = () => {
     <ul>
       <li>
         {/* <a href="#"> */}
-        <Link href="#">
+        <a href={Path("#")}>
           首页 {/* Home <i className="fas fa-chevron-down" /> */}
-        </Link>
+        </a>
       </li>
 
       <li>
-        <Link href="#service">
+        <a href={Path("#service")}>
           产品和服务 
           {/* <i className="fas fa-chevron-down" /> */}
-        </Link>
+        </a>
         {/* <div className="sub-menu">
           <ul>
             <li>
@@ -396,7 +396,7 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link href="/#academic">
+        <Link href={Path("#academic")}>
           学术 <i className="fas fa-chevron-down" />
         </Link>
         <div className="sub-menu">
@@ -407,50 +407,44 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <a href="/#service">
-                专利(/#service)
+              <a href={Path("pattern")}>
+                专利
               </a>
             </li>
             <li>
-              <a href="#service">
-                开源项目(#service)
+              <a href={Path("open")}>
+                开源项目
               </a>
             </li>
             <li>
-              <a href={Path("#service")}>
-                公开演讲(path(#service))
+              <a href={Path("talk")}>
+                公开演讲
               </a>
             </li>
-            <li>
-              <a href={Path("/#service")}>
-                成果演示(path(/#service))
-              </a>
-            </li>
-
           </ul>
         </div>
       </li>
 
       <li>
-        <Link legacyBehavior href="/case">
+        <a href={Path("case")}>
           成功案例 
-        </Link>
+        </a>
       </li>
       <li>
-        <Link href="/#about">
+        <a href={Path("#about")}>
           关于 <i className="fas fa-chevron-down" />
-        </Link>
+        </a>
         <div className="sub-menu">
           <ul>
             <li>
-              <Link legacyBehavior href="/#about">
+              <a href={Path("#about")}>
                 关于阡陌
-              </Link>
+              </a>
             </li>
             <li>
-              <Link legacyBehavior href="/#offer">
+              <a href={Path("#offer")}>
                 招聘
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
@@ -481,11 +475,11 @@ const SearchBtn = ({ btnStyle }) => {
         </ul>
       </div> */}
       <div className="thrown-btn style-five">
-        <Link legacyBehavior href="/#contact">
+        <a href={Path("#contact")}>
           <a className="header-button">
             联系我们 <span />
           </a>
-        </Link>
+        </a>
       </div>
     </Fragment>
   );
