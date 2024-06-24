@@ -475,10 +475,8 @@ const SearchBtn = ({ btnStyle }) => {
         </ul>
       </div> */}
       <div className="thrown-btn style-five">
-        <a href={Path("#contact")}>
-          <a className="header-button">
-            联系我们 <span />
-          </a>
+        <a className="header-button" href={Path("#contact")}>
+          联系我们 <span />
         </a>
       </div>
     </Fragment>
