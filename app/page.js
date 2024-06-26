@@ -54,7 +54,7 @@ const Index2 = () => {
       {/*==================================================*/}
       {/* Start Thrown Service Style Two Area */}
       {/*==================================================*/}
-      <div className="service-area style-two" id="service">
+      <div className="service-area style-two" id="product">
 
         <div className="container">
           <div className="row">
@@ -272,28 +272,41 @@ const Index2 = () => {
 
           </div>
         </div>
+      </div>
+
+      {/*==================================================*/}
+      {/* Start Thrown Service Style Two Area */}
+      {/*==================================================*/}
+      <div className="solution-area style-two" id="solution">
 
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row align-items-center">
+            <div className="col-lg-8 col-xl-8">
               <div className="section-title text-center">
-                <div className="section-sub-title">
-                  <h4>大模型+交通，下一代智慧交通解决方案</h4>
+                <div className="section-sub-title solution">
+                  <h4>大模型+交通</h4>
                 </div>
-                <div className="section-main-title">
-                  <h2>
-                    <a href="service">
-                      解决方案
-                    </a>
-                  </h2>
+                <div className="section-main-title solution">
+                  <h2>下一代智慧交通解决方案</h2>
+                  <p></p>
+                  {/* <h4>
+                    <a href="service">详情</a>
+                  </h4> */}
+                  <div className="thrown-btn solution" >
+                    <Link legacyBehavior href="service">
+                      <a className="header-button">
+                        获取解决方案
+                        <span style={{ top: "197.658px", left: "152.499px" }} />
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-md-6 col-xl-3">
+
+            <div className="col-lg-4 col-xl-4">
               {/* start service items box */}
-              <div className="service-items-box-two">
+              <div className="service-items-box-two  col-lg-12 col-xl-12 col-md-12">
                 <div className="service-icon-thumb">
                   <img
                     src="assets/images/service/service-style3.png"
@@ -312,18 +325,8 @@ const Index2 = () => {
                     主要面向交管部门的人工智能解决方案。
                   </p>
                 </div>
-                <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service3.png" alt="image" />
-                  <div className="service-items-icon-two">
-                    <i className="bi bi-arrow-right" />
-                  </div>
-                </div>
               </div>
-              {/* End service items box */}
-            </div>
-            <div className="col-md-6 col-xl-3">
-              {/* start service items box */}
-              <div className="service-items-box-two">
+              <div className="service-items-box-two col-lg-12 col-xl-12 col-md-12">
                 <div className="service-icon-thumb">
                   <img
                     src="assets/images/service/service-style4.png"
@@ -342,8 +345,121 @@ const Index2 = () => {
                     主要面向私营出行平台的人工智能解决方案。
                   </p>
                 </div>
+              </div>
+              {/* End service items box */}
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      {/*==================================================*/}
+      {/* End Thrown Service Style Two Area */}
+      {/*==================================================*/}
+
+
+      {/*==================================================*/}
+      {/* Start Thrown Service Style Two Area */}
+      {/*==================================================*/}
+      <div className="service-area style-two" id="story">
+
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center">
+                <div className="section-sub-title">
+                </div>
+                <div className="section-main-title">
+                  <h2>
+                    成功案例
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-3 col-lg-3 col-xl-3">
+              {/* start service items box */}
+              <div className="service-items-box-two">
+                <div className="service-icon-thumb">
+                  <img
+                    src="assets/images/brand/icon_didi2.png"
+                    alt="image"
+                  />
+                </div>
+                <div className="service-items-title">
+                  <h4>
+                    <Link legacyBehavior href="story/didi-eta">
+                      滴滴出行
+                    </Link>
+                  </h4>
+                </div>
+                <div className="service-items-content-two">
+                  <p>
+                    滴滴行程时间预估系统。
+                  </p>
+                </div>
                 <div className="service-items-thumb-two">
-                  <img src="assets/images/service/service4.png" alt="image" />
+                  <img src="assets/images/resource/story-didi.png" alt="image" />
+                  <div className="service-items-icon-two">
+                    <i className="bi bi-arrow-right" />
+                  </div>
+                </div>
+              </div>
+              {/* End service items box */}
+            </div>
+            <div className="col-md-3 col-lg-3 col-xl-3">
+              {/* start service items box */}
+              <div className="service-items-box-two">
+                <div className="service-icon-thumb">
+                  <img
+                    src="assets/images/brand/icon_baidu_4.png"
+                    alt="image"
+                  />
+                </div>
+                <div className="service-items-title">
+                  <h4>
+                    <Link legacyBehavior href="story/baidu-map">
+                      百度地图
+                    </Link>
+                  </h4>
+                </div>
+                <div className="service-items-content-two">
+                  <p>
+                    百度地图智行出行、公交出行引擎。
+                  </p>
+                </div>
+                <div className="service-items-thumb-two">
+                  <img src="assets/images/resource/story-baidu.png" alt="image" />
+                  <div className="service-items-icon-two">
+                    <i className="bi bi-arrow-right" />
+                  </div>
+                </div>
+              </div>
+              {/* End service items box */}
+            </div>
+            <div className="col-md-3 col-lg-3 col-xl-3">
+              {/* start service items box */}
+              <div className="service-items-box-two">
+                <div className="service-icon-thumb">
+                  <img
+                    src="assets/images/brand/icon_baidu_cloud.png"
+                    alt="image"
+                  />
+                </div>
+                <div className="service-items-title">
+                  <h4>
+                    <Link legacyBehavior href="story/baidu-city">
+                      雄安城市报告
+                    </Link>
+                  </h4>
+                </div>
+                <div className="service-items-content-two">
+                  <p>
+                    基于城市大数据分析平台，有效支持了雄安大数据专项报告。
+                  </p>
+                </div>
+                <div className="service-items-thumb-two">
+                  <img src="assets/images/resource/story-city.png" alt="image" />
                   <div className="service-items-icon-two">
                     <i className="bi bi-arrow-right" />
                   </div>
@@ -535,14 +651,14 @@ const Index2 = () => {
                 </div>
               </div> */}
             </div>
-            <div className="thrown-btn contact" >
-                  <Link legacyBehavior href="demo">
-                    <a className="header-button">
-                      研究成果演示
-                      <span style={{ top: "197.658px", left: "152.499px" }} />
-                    </a>
-                  </Link>
-                </div>
+            {/* <div className="thrown-btn contact" >
+              <Link legacyBehavior href="demo">
+                <a className="header-button">
+                  研究成果演示
+                  <span style={{ top: "197.658px", left: "152.499px" }} />
+                </a>
+              </Link>
+            </div> */}
           </div>
         </div>
       </div>

@@ -1752,6 +1752,52 @@ ul.accordion ul li a span {
   border-radius: 50%;
 }
 
+
+/*==================================================
+ <-- Solution Area Css-->
+===================================================*/
+
+.solution-area {
+  background: url(../images/resource/traffic.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.solution-area.style-two {
+  padding: 105px 0 60px;
+}
+
+.solution-area.style-two .container{
+  margin-bottom: 60px;
+}
+
+.section-main-title.solution h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 58px;
+}
+
+.section-main-title.solution h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 58px;
+}
+
+.section-sub-title.solution h4{
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 58px;
+}
+
+.thrown-btn.solution{
+  margin: auto;
+}
+
 /*==================================================
  <-- Thrown Blog Area Css-->
 ===================================================*/
@@ -2437,11 +2483,11 @@ ul.accordion ul li a span {
 =================================================================*/
 
 .service-area.style-two {
-  padding: 105px 0 110px;
+  padding: 105px 0 60px;
 }
 
 .service-area.style-two .container{
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .service-items-box-two {
@@ -2509,6 +2555,8 @@ ul.accordion ul li a span {
 
 .service-icon-thumb img {
   transition: 0.5s;
+  height: 40px;
+  width:auto;
 }
 
 .service-items-box-two:hover .service-icon-thumb img {
@@ -2531,8 +2579,14 @@ ul.accordion ul li a span {
   margin: 26px 0 22px;
 }
 
+
 .service-items-thumb-two {
   position: relative;
+}
+
+
+.service-items-thumb-two img{
+  width: 280px;
 }
 
 .service-items-icon-two {
@@ -6506,6 +6560,10 @@ button.icons {
   margin-bottom: 20px;
 }
 
+.blog-quote-box h5{
+  text-align: center;
+}
+
 .blog-quote-conent i {
   font-size: 30px;
   color: #0154f7;
@@ -6764,11 +6822,18 @@ button.icons {
   width: 100%;
 }
 
+
 .blog-details-thumb{
   position:relative;
 }
 
 .blog-details-thumb h4{
+  margin: 30px 100px 30px;
+  text-align: center;
+}
+
+
+.blog-details-thumb h5{
   margin: 30px 100px 30px;
   text-align: center;
 }
@@ -7029,6 +7094,11 @@ button.icons {
 
 .blog-details-area .owl-next i::after {
   display: none;
+}
+
+.contact.story h2{
+  text-align: center;
+  margin: 50px 0 50px;
 }
 
 /* blog details comment */
@@ -7327,6 +7397,32 @@ button.icons {
 /*===============================================================
 <-- Thrown Sidebar Css-->
 =================================================================*/
+
+.sidebar{
+  position: fixed;
+  /* position: relative; */
+  /* width: 300px; */
+  right: 10%;
+  width: 20%;
+}
+
+
+.sticky-sidebar {
+  top: 100px;
+  /* height: 100px; */
+  /* position: fixed !important; */
+  /* box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07); */
+  /* -webkit-animation: 300ms running fadeInDown; */
+  /* animation: 500ms running fadeInUp; */
+  /* -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); */
+  transition: 0.5s !important;
+  /* background: #ffffff !important;  */
+  z-index: 99 !important;
+  /* animation-name: slideInLeft; */
+  /* opacity: 0.9; */
+  /* padding-bottom: -50px; */
+  /* padding-top: 100px; */
+}
 
 .sidebar-textwidget .contact-info ul {
   padding: 0;

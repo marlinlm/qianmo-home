@@ -11,6 +11,7 @@ const ThrownLayout = ({ children, header, dark, subheader, background }) => {
     thrownutility.stickyHeader();
     thrownutility.stickySubHeader(subheader);
     thrownutility.scrollAnimation();
+    thrownutility.stickySideBar();
     if(background){
       thrownutility.updateBackground(background);
     }

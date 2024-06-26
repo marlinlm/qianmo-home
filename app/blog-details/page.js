@@ -626,7 +626,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <BlogSidebar />
+            {/* <BlogSidebar /> */}
           </div>
         </div>
       </div>

@@ -1,26 +1,10 @@
-const BlogSidebar = () => {
+const BlogSidebar = ({products}) => {
   return (
-    <div className="col-lg-4 col-md-8">
-      {/* start widget search box */}
-      <div className="widget_search box">
-        <form action="#" method="get">
-          <input
-            type="text"
-            name="s"
-            defaultValue=""
-            placeholder="Search Here"
-            title="Search for:"
-          />
-          <button type="submit" className="icons">
-            <i className="fa fa-search" />
-          </button>
-        </form>
-      </div>
+    <div className="sidebar col-lg-4 col-md-8" id="sidebar">
       {/* End widget search box */}
-      <div className="widget-categories-box">
-        {/* categories title */}
+      {/* <div className="widget-categories-box">
         <div className="widget-catagories-title">
-          <h4> Popular Post </h4>
+          <h4> 相关产品 </h4>
         </div>
         <div className="sidber-widget-recent-post mb-40">
           <div className="recent-widget-thumb">
@@ -82,22 +66,20 @@ const BlogSidebar = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="widget-categories-box">
         {/* categories title */}
         <div className="widget-catagories-title">
-          <h4> Popular Tags </h4>
+          <h4> 相关产品 </h4>
         </div>
         <div className="widget-tags">
-          <a href="#">Services</a>
-          <a href="#">Business</a>
-          <a href="#">Grooming</a>
-          <a href="#">Breeding</a>
-          <a href="#">Growth</a>
-          <a href="#">Stable</a>
-          <a href="#">Education</a>
-          <a href="#">America</a>
-          <a href="#">Maintenance</a>
+          {
+            products.map((product) => 
+              (
+                <a href={product.url}>{product.name}</a>
+              )
+            )
+          }
         </div>
       </div>
     </div>

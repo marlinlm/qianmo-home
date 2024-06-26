@@ -375,24 +375,16 @@ const Nav = () => {
       </li>
 
       <li>
-        <a href={Path("#service")}>
-          产品和服务 
-          {/* <i className="fas fa-chevron-down" /> */}
+        <a href={Path("#product")}>
+          产品和解决方案
         </a>
-        {/* <div className="sub-menu">
-          <ul>
-            <li>
-              <Link legacyBehavior href="service#solution1">
-                智慧交通解决方案
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="service#solution2">
-                智慧出行解决方案
-              </Link>
-            </li>
-          </ul>
-        </div> */}
+      </li>
+
+      
+      <li>
+        <a href={Path("#story")}>
+          成功案例 
+        </a>
       </li>
 
       <li>
@@ -425,11 +417,6 @@ const Nav = () => {
         </div>
       </li>
 
-      <li>
-        <a href={Path("case")}>
-          成功案例 
-        </a>
-      </li>
       <li>
         <a href={Path("#about")}>
           关于 <i className="fas fa-chevron-down" />

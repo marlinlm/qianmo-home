@@ -41,6 +41,24 @@ export const thrownutility = {
     }
   },
 
+  stickySideBar() {
+    var height = 600;
+    var wind = window;
+    var sticky = document.getElementById("sidebar");
+    if (sticky) {
+      wind.addEventListener("scroll", function () {
+        var scroll = wind.scrollY || document.documentElement.scrollTop;
+        if (scroll < height) {
+          sticky.classList.remove("sticky-sidebar");
+          sticky.style.top = (height - scroll) + "px"
+        } else {
+          sticky.classList.add("sticky-sidebar");
+          sticky.style.top = (100) + "px"
+        }
+      });
+    }
+  },
+
   updateBackground(background) {
     // var wind = window;
     var bg = document.getElementById("background");
@@ -57,19 +75,6 @@ export const thrownutility = {
 
 
   stickyHeader() {
-    var wind = window;
-    // var sticky = document.getElementById("sticky-header");
-    // if (sticky) {
-    //   wind.addEventListener("scroll", function () {
-    //     var scroll = wind.scrollY || document.documentElement.scrollTop;
-    //     if (scroll < 100) {
-    //       sticky.classList.remove("sticky-nav");
-    //     } else {
-    //       sticky.classList.add("sticky-nav");
-    //     }
-    //   });
-    // }
-
     var wind = window;
     var navbar = document.getElementById("navbar");
     if (navbar) {
